@@ -35,9 +35,9 @@ def knn(train_imgs, train_labels, test_imgs, test_labels, k, distance_metric):
 
     for i in range(0, len(test_imgs)):
         test_img = test_imgs[i]
-        test_label = test_labels[i]
         predicted_label = knn_predict(distance_metric, test_img, train_imgs, train_labels, k)
-        print("predicted label: ", predicted_label, "actual label: ", test_label)
+        test_label = test_labels[i]
+        # print("predicted label: ", predicted_label, "actual label: ", test_label)
         if predicted_label == test_label:
             correct_digits = correct_digits + 1
     return correct_digits / len(test_labels)
@@ -118,10 +118,13 @@ if __name__ == "__main__":
     train_labels, train_imgs = load_data("train.csv")
     test_labels, test_imgs = load_data("test_1.csv")
 
+    print("training set size..: ", len(train_labels))
+    print("test set size......: ", len(test_labels))
+
     for k in [1, 3, 5, 10, 15]:
         acc_k1_euclidean = knn(train_imgs, train_labels, test_imgs, test_labels, k, euclidean)
         print("accuracy [k=", k, ", euclidean] = ", acc_k1_euclidean)
         acc_k1_manhattan = knn(train_imgs, train_labels, test_imgs, test_labels, k, manhattan)
-        print("accuracy [k=", k, ", manhattan] = ", acc_k1_euclidean)
+        print("accuracy [k=", k, ", manhattan] = ", acc_k1_manhattan)
 
     print("exercise_1a <--")
