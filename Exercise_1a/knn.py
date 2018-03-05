@@ -1,5 +1,7 @@
 from scipy.sparse import dok_matrix
 import numpy as np
+import threading
+import multiprocessing
 
 # CONSTS
 INDEX_LABEL = 0
@@ -38,6 +40,8 @@ def knn(train_imgs, train_labels, test_imgs, test_labels, k, distance_metric):
     for i in range(0, len(test_imgs)):
         test_img = test_imgs[i]
         predicted_label = knn_predict(distance_metric, test_img, train_imgs, train_labels, k)
+        if i % 50 == 0:
+            print(threading.get_ident(), ": knn_predict:", (i + 1))
         if predicted_label == test_labels[i]:
             correct_digits = correct_digits + 1
     return correct_digits / len(test_labels)  # calculate accuracy
@@ -108,18 +112,40 @@ def manhattan(train_img, test_img):
     return abs(train_img - test_img).sum()
 
 
+class KnnThread(threading.Thread):
+    def __init__(self, *args):
+        threading.Thread.__init__(self)
+        self._args = args
+
+    def run(self):
+        # print('running', threading.get_ident(), '-->')
+        accuracy = knn(self._args[0], self._args[1], self._args[2], self._args[3], self._args[4], self._args[5])
+        print("accuracy [k=", self._args[4], ",", self._args[6], "] =", accuracy)
+        # print('done', threading.get_ident(), '<--')
+
+
 if __name__ == "__main__":
     print("exercise_1a -->")
-    train_labels, train_imgs = load_data("train.csv")
-    test_labels, test_imgs = load_data("test_1.csv")
+    train_labels, train_imgs = load_data("train_small.csv")
+    test_labels, test_imgs = load_data("test_small.csv")
 
     print("training set size..: ", len(train_labels))
     print("test set size......: ", len(test_labels))
 
-    for k in [1, 3, 5, 10, 15]:
-        acc_k1_euclidean = knn(train_imgs, train_labels, test_imgs, test_labels, k, euclidean)
-        print("accuracy [k=", k, ", euclidean] = ", acc_k1_euclidean)
-        acc_k1_manhattan = knn(train_imgs, train_labels, test_imgs, test_labels, k, manhattan)
-        print("accuracy [k=", k, ", manhattan] = ", acc_k1_manhattan)
+    threads = []
+    cpus = multiprocessing.cpu_count()
+    for k in [1, 3]:  # , 3, 5, 10, 15]:
+        t1 = KnnThread(train_imgs, train_labels, test_imgs, test_labels, k, euclidean, "euclidean")
+        t1.start()
+        threads.append(t1)
+        t2 = KnnThread(train_imgs, train_labels, test_imgs, test_labels, k, manhattan, "manhattan")
+        t2.start()
+        threads.append(t2)
+        if len(threads) >= cpus:
+            threads[0].join()
+            threads[1].join()
+            del threads[0:2]
+
+    [t.join() for t in threads]
 
     print("exercise_1a <--")
