@@ -10,7 +10,7 @@ START_INDEX_IMG = 1
 
 def load_data(file):
     """
-
+    load image data from file.
     :return: image labels, images raw data
     """
     imgs = []
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
     threads = []
     cpus = multiprocessing.cpu_count()
-    for k in [1, 3]:  # , 3, 5, 10, 15]:
+    for k in [1, 3, 5, 10, 15]:
         t1 = KnnThread(train_imgs, train_labels, test_imgs, test_labels, k, euclidean, "euclidean")
         t1.start()
         threads.append(t1)
