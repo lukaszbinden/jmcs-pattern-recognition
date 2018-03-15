@@ -1,6 +1,7 @@
 Pattern Recognition SS 2018 - Exercise 1a
 =========================================
 Zbinden Lukas
+https://github.com/lukaszbinden/jmcs-pattern-recognition
 
 
 1) File knn_numpyarr.py
