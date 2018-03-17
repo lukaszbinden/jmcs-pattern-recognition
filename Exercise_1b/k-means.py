@@ -1,151 +1,144 @@
-from scipy.sparse import dok_matrix
+import sys
+import csv
+from datetime import datetime
+import random
 import numpy as np
-import threading
-import multiprocessing
+import scipy.spatial
 
 # CONSTS
-INDEX_LABEL = 0
-START_INDEX_IMG = 1
+MAX_ITERATIONS = 10
+
+TYPE_FIXED_NUMBER_OF_ITERATIONS = 99
+TYPE_RANDOM_CHOICE = 100
+METHOD_C_INDEX = 500
+
+# CONFIGURATION OF PROGRAM
+TERMINATION_CRITERIA = TYPE_FIXED_NUMBER_OF_ITERATIONS
+ALGORITHM_INITIAL_CLUSTERS = TYPE_RANDOM_CHOICE
+CLUSTER_VALIDATION_METHOD = METHOD_C_INDEX
 
 
-def load_data(file):
-    """
-    load image data from file.
-    :return: image labels, images raw data
-    """
-    imgs = []
-    labels = []
-    data = np.loadtxt(file, delimiter=',')
-    for i in range(0, len(data)):
-        labels.append(data[i][INDEX_LABEL])
-        # sparse_vec = dok_matrix((length, 1), dtype=np.int)
-        img_raw = data[i][START_INDEX_IMG:len(data[i])]
-        img_sp_mat = dok_matrix([img_raw], dtype=np.int)
-        imgs.append(img_sp_mat)
-    return labels, imgs
+
+def load_data(filename):
+    with open(filename, 'r') as f:
+        reader = csv.reader(f)
+        data = list(reader)
+    matrix = np.array(data, dtype = int)
+    # separate labels from samples
+    samples = matrix[:,1:]
+    labels = matrix[:,0]
+    return labels, samples
 
 
-def knn(train_imgs, train_labels, test_imgs, test_labels, k, distance_metric):
+def print_indent(text, indent, indent_char='\t'):
+    print('{indent}{text}'.format(indent=indent*indent_char, text=text))
+    sys.stdout.flush()
+
+
+def k_means(train_set, k):
     """
-    apply the kNN alogrithm to each image in the test_imgs source and calculate the
-    accuracy of the kNN model that it achieves based on the given training data in
-    train_imgs and train_labels.
-    :return: accuracy for k
+    :return: clustering [C_1,...,C_k]
     """
-    assert(len(train_imgs) == len(train_labels))
-    assert(len(test_imgs) == len(test_labels))
     assert(k > 0)
 
-    correct_digits = 0
-    for i in range(0, len(test_imgs)):
-        test_img = test_imgs[i]
-        predicted_label = knn_predict(distance_metric, test_img, train_imgs, train_labels, k)
-        if i % 50 == 0:
-            print(threading.get_ident(), ": knn_predict:", (i + 1))
-        if predicted_label == test_labels[i]:
-            correct_digits = correct_digits + 1
-    return correct_digits / len(test_labels)  # calculate accuracy
+    k_cluster_centers = choose_cluster_centers(train_set, k, ALGORITHM_INITIAL_CLUSTERS)
+    k_clusters = {}
+    termination_dict = {}
+
+    while True:
+        dist = scipy.spatial.distance.cdist(train_set, k_cluster_centers)  # uses euclidean
+        # for each xi, assign it to nearest center
+        cluster_ids = np.argmin(dist, axis=1)
+        for i in range(0,k):  # for each cluster
+            xi_indices = np.where(cluster_ids==i)
+            cluster_i = train_set[xi_indices]
+            k_clusters[i] = xi_indices  # cluster_i
+            # recompute cluster center
+            k_cluster_centers[i] = np.mean(cluster_i, axis=1)
+
+        if terminate(termination_dict, TERMINATION_CRITERIA):
+            break
+
+    assert(len(k_clusters) == k)
+    result = []
+    for i in k_clusters:
+        result.append(k_clusters[i])
+    return result
 
 
-def knn_predict(metric, test_img, train_imgs, train_labels, k):
-    """
-     implementation of the kNN algorithm
-    :return: label prediction according to kNN classifier
-    """
-    k_nearest_neighbors = {}
-    max_distance = -1
-    num_neighbors = 0
-    for j in range(0, len(train_imgs)):
-        train_img = train_imgs[j]
-        distance = metric(train_img, test_img)
-        if num_neighbors < k or distance < max_distance:
-            if distance not in k_nearest_neighbors:
-                k_nearest_neighbors[distance] = []
-            k_nearest_neighbors[distance].append(train_labels[j])
-            max_distance = max(k_nearest_neighbors)
-            num_neighbors = num_neighbors + 1
-        if num_neighbors > k:
-            del k_nearest_neighbors[max_distance]
-            max_distance = max(k_nearest_neighbors)
-            num_neighbors = num_neighbors - 1
+def terminate(termination_dict, criteria):
+    if criteria == TYPE_FIXED_NUMBER_OF_ITERATIONS:
+        if 'cnt' not in termination_dict:
+            termination_dict['cnt'] = 0
+        termination_dict['cnt'] = termination_dict['cnt'] + 1
+        if termination_dict['cnt'] >= MAX_ITERATIONS:
+            return True
 
-    return extract_most_frequent_label(k_nearest_neighbors)
+    return False
 
 
-def extract_most_frequent_label(k_nearest_neighbors):
-    """
+def validate(train_set, clusters, k, method):
+    if method == METHOD_C_INDEX:
+        gamma = 0
+        alpha = 0
+        distances = []
+        pdist = scipy.spatial.distance.pdist(train_set)
+        pdist_square = scipy.spatial.distance.squareform(pdist)
+        for i in range(0, len(train_set) - 2):
+            for j in range(i+1, len(train_set) - 1):
+                distances.append(pdist_square[i][j])
+                if in_same_cluster(clusters, i, j):
+                    gamma = gamma + pdist_square[i][j]
+                    alpha = alpha + 1
+        idx = np.argpartition(distances, alpha)
+        min = distances[idx[:alpha]]
+        idx = np.argpartition(distances, -alpha)
+        max = distances[idx[-alpha:]]
+        c_index = (gamma - min) / (max - min)
+        print_indent('C-Index for k={k_val}: {c_val}'.format(k_val=k, c_val=c_index))
 
-    :return: label prediction according to kNN classifier
-    """
-    labels = {}
-    for key in k_nearest_neighbors:
-        labels_of_key = k_nearest_neighbors[key]
-        for label in labels_of_key:
-            if label not in labels:
-                labels[label] = 1
-            else:
-                labels[label] = labels[label] + 1
-
-    max_cnt = 0
-    for label, cnt in labels.items():
-        if cnt > max_cnt:
-            predicted_label = label
-            max_cnt = cnt
-
-    return predicted_label
-
-
-def euclidean(train_img, test_img):
-    """
-    Euclidean distance
-    :return:
-    """
-    # omit sqrt operation, it is equivalent without
-    return (train_img - test_img).power(2).sum()
+    else:
+        print("no validation.")
 
 
-def manhattan(train_img, test_img):
-    """
-    Manhattan distance
-    :return:
-    """
-    return abs(train_img - test_img).sum()
+def in_same_cluster(clusters, i, j):
+    for key in clusters:
+        xi_indices = clusters[key]
+        # if np.in1d(xi_indices, np.array([i, j])):
+        if i in xi_indices and j in xi_indices:
+            return True
+    return False
 
 
-class KnnThread(threading.Thread):
-    def __init__(self, *args):
-        threading.Thread.__init__(self)
-        self._args = args
+def choose_cluster_centers(train_set, k, algorithm):
+    if algorithm == TYPE_RANDOM_CHOICE:
+        # random choice of k elements of train_set
+        indices = random.sample(range(0, len(train_set) - 1), k)
+        centers = train_set[indices]
 
-    def run(self):
-        # print('running', threading.get_ident(), '-->')
-        accuracy = knn(self._args[0], self._args[1], self._args[2], self._args[3], self._args[4], self._args[5])
-        print("accuracy [k=", self._args[4], ",", self._args[6], "] =", accuracy)
-        # print('done', threading.get_ident(), '<--')
+    assert(len(centers) == k)
+    return centers
 
 
-if __name__ == "__main__":
-    print("exercise_1a -->")
-    train_labels, train_imgs = load_data("train_small.csv")
-    test_labels, test_imgs = load_data("test_small.csv")
+
+def main():
+    print("exercise_1b -->")
+    _, train_imgs = load_data("train_small.csv")
+    # test_labels, test_imgs = load_data("test_small.csv")
 
     print("training set size..: ", len(train_labels))
     print("test set size......: ", len(test_labels))
 
-    threads = []
-    cpus = multiprocessing.cpu_count()
-    for k in [1, 3, 5, 10, 15]:
-        t1 = KnnThread(train_imgs, train_labels, test_imgs, test_labels, k, euclidean, "euclidean")
-        t1.start()
-        threads.append(t1)
-        t2 = KnnThread(train_imgs, train_labels, test_imgs, test_labels, k, manhattan, "manhattan")
-        t2.start()
-        threads.append(t2)
-        if len(threads) >= cpus:
-            threads[0].join()
-            threads[1].join()
-            del threads[0:2]
+    start_total = datetime.now()
+    for k in [5, 7, 9, 10, 12, 15]:
+        clusters = k_means(train_imgs, k)
+        validate(train_imgs, clusters, k, METHOD_C_INDEX)
 
-    [t.join() for t in threads]
+    end = datetime.now()
+    print_indent('Total runtime: {duration}'.format(duration=end-start_total), indent=1)
 
-    print("exercise_1a <--")
+    print("exercise_1b <--")
+
+
+if __name__ == "__main__":
+    main()
