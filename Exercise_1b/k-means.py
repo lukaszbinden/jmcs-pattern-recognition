@@ -103,12 +103,6 @@ def validate(train_set, clusters, k, method):
 
 def in_same_cluster(clusters, i, j):
     for xi_indices in clusters:
-        # xi_indices = clusters[key]
-        # if np.in1d(xi_indices, np.array([i, j])):
-        # if i in xi_indices and j in xi_indices:
-        # if set(np.array([i, j])).issubset(set(xi_indices)):
-        # xii = list(xi_indices)
-        # if xii.count(i) == 1 and xii.count(j) == 1:
         if i in xi_indices and j in xi_indices:
             return True
     return False
@@ -127,7 +121,6 @@ def choose_cluster_centers(train_set, k, algorithm):
 def main():
     print("exercise_1b -->")
     _, train_imgs = load_data("../data/MNIST/train_med.csv")
-    # test_labels, test_imgs = load_data("test_small.csv")
 
     print("training set size..: ", len(train_imgs))
 
