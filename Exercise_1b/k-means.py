@@ -18,7 +18,6 @@ ALGORITHM_INITIAL_CLUSTERS = TYPE_RANDOM_CHOICE
 CLUSTER_VALIDATION_METHOD = METHOD_C_INDEX
 
 
-
 def load_data(filename):
     with open(filename, 'r') as f:
         reader = csv.reader(f)
@@ -49,12 +48,12 @@ def k_means(train_set, k):
         dist = scipy.spatial.distance.cdist(train_set, k_cluster_centers)  # uses euclidean
         # for each xi, assign it to nearest center
         cluster_ids = np.argmin(dist, axis=1)
-        for i in range(0,k):  # for each cluster
-            xi_indices = np.where(cluster_ids==i)
+        for i in range(0, k):  # for each cluster
+            xi_indices = np.where(cluster_ids == i)[0]
             cluster_i = train_set[xi_indices]
             k_clusters[i] = xi_indices  # cluster_i
             # recompute cluster center
-            k_cluster_centers[i] = np.mean(cluster_i, axis=1)
+            k_cluster_centers[i] = np.mean(np.array(cluster_i), axis=0)
 
         if terminate(termination_dict, TERMINATION_CRITERIA):
             break
@@ -90,21 +89,26 @@ def validate(train_set, clusters, k, method):
                 if in_same_cluster(clusters, i, j):
                     gamma = gamma + pdist_square[i][j]
                     alpha = alpha + 1
+        distances = np.array(distances)
         idx = np.argpartition(distances, alpha)
-        min = distances[idx[:alpha]]
+        min = sum(distances[idx[:alpha]])
         idx = np.argpartition(distances, -alpha)
-        max = distances[idx[-alpha:]]
+        max = sum(distances[idx[-alpha:]])
         c_index = (gamma - min) / (max - min)
-        print_indent('C-Index for k={k_val}: {c_val}'.format(k_val=k, c_val=c_index))
+        print_indent('C-Index for k={k_val}: {c_val}'.format(k_val=k, c_val=c_index), indent=1)
 
     else:
         print("no validation.")
 
 
 def in_same_cluster(clusters, i, j):
-    for key in clusters:
-        xi_indices = clusters[key]
+    for xi_indices in clusters:
+        # xi_indices = clusters[key]
         # if np.in1d(xi_indices, np.array([i, j])):
+        # if i in xi_indices and j in xi_indices:
+        # if set(np.array([i, j])).issubset(set(xi_indices)):
+        # xii = list(xi_indices)
+        # if xii.count(i) == 1 and xii.count(j) == 1:
         if i in xi_indices and j in xi_indices:
             return True
     return False
@@ -120,17 +124,15 @@ def choose_cluster_centers(train_set, k, algorithm):
     return centers
 
 
-
 def main():
     print("exercise_1b -->")
-    _, train_imgs = load_data("train_small.csv")
+    _, train_imgs = load_data("../data/MNIST/train_med.csv")
     # test_labels, test_imgs = load_data("test_small.csv")
 
-    print("training set size..: ", len(train_labels))
-    print("test set size......: ", len(test_labels))
+    print("training set size..: ", len(train_imgs))
 
     start_total = datetime.now()
-    for k in [5, 7, 9, 10, 12, 15]:
+    for k in [5, 7, 9, 10, 12, 15]:  # [3]
         clusters = k_means(train_imgs, k)
         validate(train_imgs, clusters, k, METHOD_C_INDEX)
 
