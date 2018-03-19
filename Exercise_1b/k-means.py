@@ -169,7 +169,7 @@ def choose_cluster_centers(train_set, k, algorithm):
 
 def main():
     print("exercise_1b -->")
-    _, train_imgs = load_data("../data/MNIST/train_large.csv")
+    _, train_imgs = load_data("../data/MNIST/train_med.csv")
 
     print("\ttraining set size..: ", len(train_imgs))
 
