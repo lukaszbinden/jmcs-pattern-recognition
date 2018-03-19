@@ -96,7 +96,7 @@ def validate(train_set, clusters, k, validation_dict, method):
         idx = np.argpartition(distances, -alpha)
         max_dist = sum(distances[idx[-alpha:]])
         c_index = (gamma - min_dist) / (max_dist - min_dist)
-        print_indent('C-Index for k={k_val}: {c_val}'.format(k_val=k, c_val=c_index), indent=1)
+        print_indent('C-Index    for k={k_val}: {c_val}'.format(k_val=k, c_val=c_index), indent=1)
 
     elif method == METHOD_DUNN_INDEX:
         pdist_square = get_pdist_square(train_set, validation_dict)
@@ -178,10 +178,16 @@ def main():
     for k in [5, 7, 9, 10, 12, 15]:  # [3]
         start_k = datetime.now()
         clusters = k_means(train_imgs, k)
-        # validate(train_imgs, clusters, k, validation_dict, METHOD_C_INDEX)
-        validate(train_imgs, clusters, k, validation_dict, METHOD_DUNN_INDEX)
         end_k = datetime.now()
         print_indent('Runtime for k={k_key}: {duration}'.format(k_key=k, duration=end_k-start_k), indent=1)
+        start_k = datetime.now()
+        validate(train_imgs, clusters, k, validation_dict, METHOD_C_INDEX)
+        end_k = datetime.now()
+        print_indent('Runtime: {duration}'.format(k_key=k, duration=end_k-start_k), indent=1)
+        start_k = datetime.now()
+        validate(train_imgs, clusters, k, validation_dict, METHOD_DUNN_INDEX)
+        end_k = datetime.now()
+        print_indent('Runtime: {duration}'.format(k_key=k, duration=end_k-start_k), indent=1)
 
     end = datetime.now()
     print_indent('Total runtime: {duration}'.format(duration=end-start_total), indent=1)
