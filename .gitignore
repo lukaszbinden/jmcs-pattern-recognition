@@ -7,3 +7,6 @@ Exercise_1b/.idea/inspectionProfiles/Project_Default.xml
 Exercise_1b/.idea/misc.xml
 Exercise_1b/.idea/modules.xml
 Exercise_1b/.idea/workspace.xml
+data/MNIST/train_large.csv
+data/MNIST/train_large_15071.csv
+data/MNIST/train_med_6088.csv
