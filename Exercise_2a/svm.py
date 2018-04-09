@@ -36,5 +36,5 @@ print ('Accuracy: %3f ' % acc)
 # Results:
 #
 # kernel=linear, C=1.0, gamma=1/#features -> Acc=0.913806
-# kernel=rbf   , C=1.0, gamma=1/#features -> Acc= <still running>
+# kernel=rbf   , C=1.0, gamma=1/#features -> Acc=0.111926  <-- time to find the mistake...
 #
