@@ -124,7 +124,7 @@ for num_epochs in EPOCH_values:
 
             current_accuracy = correct / total
             tend = datetime.now()
-            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | time: %s | accuracy on test set: %d' % (num_epochs, hidden_size, learning_rate, str((tend-tstart)), 100 * current_accuracy))
+            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | %s | accuracy on test set: %d %%' % (num_epochs, hidden_size, learning_rate, str((tend-tstart)), 100 * current_accuracy))
 
             #print('Accuracy on test set: %d %%' % (100 * current_accuracy))
 
