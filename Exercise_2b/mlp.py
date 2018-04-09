@@ -9,6 +9,7 @@ import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 from torch.autograd import Variable
 import math
+from datetime import datetime
 
 
 # Hyper Parameters
@@ -71,7 +72,7 @@ best_learning_rate = -math.inf
 for num_epochs in EPOCH_values:
     for hidden_size in H_values:
         for learning_rate in LR_values:
-
+            tstart = datetime.now()
             net = Net(input_size, hidden_size, num_classes)
 
             # Loss and Optimizer
@@ -122,7 +123,8 @@ for num_epochs in EPOCH_values:
                 correct += (predicted.cpu() == labels).sum()
 
             current_accuracy = correct / total
-            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | accuracy on test set: %d %%' % (num_epochs, hidden_size, learning_rate, 100 * current_accuracy))
+            tend = datetime.now()
+            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | time: %s | accuracy on test set: %d' % (num_epochs, hidden_size, learning_rate, str((tend-tstart)), 100 * current_accuracy))
 
             #print('Accuracy on test set: %d %%' % (100 * current_accuracy))
 
