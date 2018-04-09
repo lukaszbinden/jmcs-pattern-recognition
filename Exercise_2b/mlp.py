@@ -9,6 +9,8 @@ import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 from torch.autograd import Variable
 import math
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 # Hyper Parameters
@@ -49,6 +51,27 @@ class Net(nn.Module):
         out = self.fc2(out)
         return out
 
+def create_plot(epochs, training, validation):
+    width = 0.4
+    array_epoches = np.arange(len(epochs))
+    string_epoches = [str(num) for num in epochs]
+    # we just want the axis part
+    _fig, ax = plt.subplots()
+
+    # plot 1
+    training_plot = ax.bar(array_epoches, training, width, color='red', bottom=0)
+    # plot 2
+    validation_plot = ax.bar(array_epoches + width, validation, width, color='blue', bottom=0)
+    # title
+    ax.set_title('Error on the training set and the validation set w.r.t. the training epoches')
+    # so bars are next to each other
+    ax.set_xticks(array_epoches + width / 2)
+    # assigns epochs as tick rates, so our bars are over the tickrates
+    ax.set_xticklabels((string_epoches))
+    ax.set_yticks(np.arange(0, 50, 10))
+    ax.set_ylim([0,50])
+    ax.legend((training_plot[0], validation_plot[0]), ('Training set', 'Validation set'))
+    plt.show()
 
 print('MNIST training set size:...%d' % (len(train_dataset)))
 print('MNIST test set size:.......%d' % (len(test_dataset)))
@@ -62,6 +85,10 @@ EPOCH_values = [5, 10, 20]
 H_values = [16, 32, 64, 128, 256, 512]
 # learning rate value set
 LR_values = [1, 0.5, 0.1, 0.01, 0.001]
+# training error rate
+training_error = []
+# validation error rate
+test_error =  []
 
 best_accuracy = -math.inf
 best_num_epochs = -math.inf
@@ -110,6 +137,16 @@ for num_epochs in EPOCH_values:
             #         correct += (predicted.cpu() == labels).sum()
             #     else:
 
+            correct = 0
+            total = 0
+            for images, labels in train_loader:
+                images = Variable(images.view(-1, 28*28))
+                outputs = net(images)
+                _, predicted = torch.max(outputs.data, 1)
+                total += labels.size(0)
+                correct += (predicted.cpu() == labels).sum()
+                
+            training_error.append(1-(correct / total))
 
             # Finally, test the Model on test set
             correct = 0
@@ -133,6 +170,9 @@ for num_epochs in EPOCH_values:
                 best_hidden_size = hidden_size
                 best_learning_rate = learning_rate
 
+            test_error.append(1-current_accuracy)
+           
 
+create_plot(EPOCH_values,training_error,test_error)
 print('Best test accuracy found: %f' % best_accuracy)
 print('NN best parameters: num_epochs=%d, hidden_size=%d, learning_rate=%f' % (num_epochs, hidden_size, learning_rate))
