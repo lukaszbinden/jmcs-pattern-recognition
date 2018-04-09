@@ -14,6 +14,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+print('mlp.py -->')
+
 # Hyper Parameters
 input_size = 784
 num_classes = 10
@@ -182,4 +184,4 @@ print("EPOCH_values: ", EPOCH_values)
 print("training_error: ", training_error)
 print("test_error: ", test_error)
 create_plot(EPOCH_values, training_error, test_error)
-
+print('mlp.py <--')
