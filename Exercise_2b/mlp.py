@@ -8,6 +8,7 @@ import torch.nn as nn
 import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 from torch.autograd import Variable
+import math
 
 
 # Hyper Parameters
@@ -49,9 +50,23 @@ class Net(nn.Module):
         return out
 
 
+print('MNIST training set size:...%d' % (len(train_dataset)))
+print('MNIST test set size:.......%d' % (len(test_dataset)))
+
+#training_set_size = 50000
+#validation_set_size = 10000
+
+# number of epochs value set
 EPOCH_values = [5, 10, 20]
-H_values = [8, 16, 32, 64, 128, 256, 384, 512]
-LR_values = [1, 0.5, 0.1, 0.01, 0.001, 0.0001]
+# hidden size value set
+H_values = [16, 32, 64, 128, 256, 512]
+# learning rate value set
+LR_values = [1, 0.5, 0.1, 0.01, 0.001]
+
+best_accuracy = -math.inf
+best_num_epochs = -math.inf
+best_hidden_size = -math.inf
+best_learning_rate = -math.inf
 
 for num_epochs in EPOCH_values:
     for hidden_size in H_values:
@@ -77,11 +92,26 @@ for num_epochs in EPOCH_values:
                     loss.backward()
                     optimizer.step()
 
-                    if (i+1) % 100 == 0:
-                        print ('Epoch [%d/%d], Step [%d/%d], Loss: %.4f'
-                               %(epoch+1, num_epochs, i+1, len(train_dataset)//batch_size, loss.data[0]))
+                    #if (i+1) % 100 == 0:
+                    #    print ('Epoch [%d/%d], Step [%d/%d], Loss: %.4f'
+                    #           %(epoch+1, num_epochs, i+1, len(train_dataset)//batch_size, loss.data[0]))
 
-            # Test the Model
+            # # Test the Model on training_set and validation_set
+            # correct_train = 0
+            # total_train = 0
+            # correct_val = 0
+            # total_val = 0
+            # for i, (images, labels) in enumerate(train_loader):
+            #     if i < training_set_size:
+            #         images = Variable(images.view(-1, 28*28))
+            #         outputs = net(images)
+            #         _, predicted = torch.max(outputs.data, 1)
+            #         total += labels.size(0)
+            #         correct += (predicted.cpu() == labels).sum()
+            #     else:
+
+
+            # Finally, test the Model on test set
             correct = 0
             total = 0
             for images, labels in test_loader:
@@ -91,7 +121,18 @@ for num_epochs in EPOCH_values:
                 total += labels.size(0)
                 correct += (predicted.cpu() == labels).sum()
 
-            print('NN configuration/training: num_epochs=%d, hidden_size=%d, learning_rate=%f' % (num_epochs, hidden_size, learning_rate))
-            print('Accuracy of the network on the 10000 test images: %d %%' % (100 * correct / total))
+            current_accuracy = correct / total
+            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | accuracy on test set: %d %%' % (num_epochs, hidden_size, learning_rate, 100 * current_accuracy))
+
+            #print('Accuracy on test set: %d %%' % (100 * current_accuracy))
 
 
+            if current_accuracy > best_accuracy:
+                best_accuracy = current_accuracy
+                best_num_epochs = num_epochs
+                best_hidden_size = hidden_size
+                best_learning_rate = learning_rate
+
+
+print('Best test accuracy found: %f' % best_accuracy)
+print('NN best parameters: num_epochs=%d, hidden_size=%d, learning_rate=%f' % (num_epochs, hidden_size, learning_rate))
