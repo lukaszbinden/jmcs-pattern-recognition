@@ -1,41 +1,26 @@
 import numpy as np
 from sklearn.svm import SVC
 
-print ('reading data...')
 
-train = np.genfromtxt('../data/MNIST/train.csv', delimiter=',')
+train = np.genfromtxt('../data/MNIST/train_med.csv', delimiter=',')
 test = np.genfromtxt('../data/MNIST/test.csv', delimiter=',')
 
-print ('training model...')
-
-# complexity is quadratic (?), so much more than 10'000 samples might not be possible
-
-y = train[:10000, 0]
-X = train[:10000, 1:]
+# complexity is quadratic (?), so much more than 10'000 (we tried 60'000) samples might not be possible
+y = train[:60000, 0]
+X = train[:60000, 1:] / 255.
 
 y_test = test[:, 0]
-X_test = test[:, 1:]
+X_test = test[:, 1:] / 255.
 
-svm = SVC(verbose=True, kernel='rbf')
-svm.fit(X, y)
+accuracies = np.zeros((6, 6))
 
-print ('predicting...')
+for i in range(0, 6):
+    for j in range(0, 6):
+        svm = SVC(verbose=False, kernel='linear', cache_size=4000, gamma=2**(j-5), C=10**(i+5))
+        svm.fit(X, y)
+        pred = svm.predict(X_test)
+        accuracies[i,j] = ((y_test == pred).sum() + 0.0) / len(pred)
+        print ('Gamma={0}, C={1}, Acc={2}'.format(2**(j-5), 10**(i+5), accuracies[i,j]))
 
-pred = svm.predict(X_test)
+print accuracies
 
-print (pred)
-print (y_test)
-
-acc = ((y_test == pred).sum() + 0.0) / len(pred)
-
-print ('done.')
-
-print ('Accuracy: %3f ' % acc)
-
-
-# Results:
-#
-# kernel=linear, C=1.0, gamma=1/#features -> Acc=0.913806
-# kernel=rbf   , C=1.0, gamma=1/#features -> Acc=0.111926
-#                  time to find the mistake  ----^
-#                  it said nSV = 10'000 ie all of them
