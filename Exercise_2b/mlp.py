@@ -12,11 +12,8 @@ from torch.autograd import Variable
 
 # Hyper Parameters
 input_size = 784
-hidden_size = 500
 num_classes = 10
-num_epochs = 5
 batch_size = 100
-learning_rate = 0.001
 
 # MNIST Dataset
 train_dataset = dsets.MNIST(root='../data',
@@ -52,41 +49,49 @@ class Net(nn.Module):
         return out
 
 
-net = Net(input_size, hidden_size, num_classes)
+EPOCH_values = [5, 10, 20]
+H_values = [8, 16, 32, 64, 128, 256, 384, 512]
+LR_values = [1, 0.5, 0.1, 0.01, 0.001, 0.0001]
 
-# Loss and Optimizer
-criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
+for num_epochs in EPOCH_values:
+    for hidden_size in H_values:
+        for learning_rate in LR_values:
 
-# Train the Model
-for epoch in range(num_epochs):
-    for i, (images, labels) in enumerate(train_loader):
-        # Convert torch tensor to Variable
-        images = Variable(images.view(-1, 28*28))
-        labels = Variable(labels)
+            net = Net(input_size, hidden_size, num_classes)
 
-        # Forward + Backward + Optimize
-        optimizer.zero_grad()  # zero the gradient buffer
-        outputs = net(images)
-        loss = criterion(outputs, labels)
-        loss.backward()
-        optimizer.step()
+            # Loss and Optimizer
+            criterion = nn.CrossEntropyLoss()
+            optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
 
-        if (i+1) % 100 == 0:
-            print ('Epoch [%d/%d], Step [%d/%d], Loss: %.4f'
-                   %(epoch+1, num_epochs, i+1, len(train_dataset)//batch_size, loss.data[0]))
+            # Train the Model
+            for epoch in range(num_epochs):
+                for i, (images, labels) in enumerate(train_loader):
+                    # Convert torch tensor to Variable
+                    images = Variable(images.view(-1, 28*28))
+                    labels = Variable(labels)
 
-# Test the Model
-correct = 0
-total = 0
-for images, labels in test_loader:
-    images = Variable(images.view(-1, 28*28))
-    outputs = net(images)
-    _, predicted = torch.max(outputs.data, 1)
-    total += labels.size(0)
-    correct += (predicted.cpu() == labels).sum()
+                    # Forward + Backward + Optimize
+                    optimizer.zero_grad()  # zero the gradient buffer
+                    outputs = net(images)
+                    loss = criterion(outputs, labels)
+                    loss.backward()
+                    optimizer.step()
 
-print('Accuracy of the network on the 10000 test images: %d %%' % (100 * correct / total))
+                    if (i+1) % 100 == 0:
+                        print ('Epoch [%d/%d], Step [%d/%d], Loss: %.4f'
+                               %(epoch+1, num_epochs, i+1, len(train_dataset)//batch_size, loss.data[0]))
 
-# Save the Model
-# torch.save(net.state_dict(), 'model.pkl')
+            # Test the Model
+            correct = 0
+            total = 0
+            for images, labels in test_loader:
+                images = Variable(images.view(-1, 28*28))
+                outputs = net(images)
+                _, predicted = torch.max(outputs.data, 1)
+                total += labels.size(0)
+                correct += (predicted.cpu() == labels).sum()
+
+            print('NN configuration/training: num_epochs=%d, hidden_size=%d, learning_rate=%f' % (num_epochs, hidden_size, learning_rate))
+            print('Accuracy of the network on the 10000 test images: %d %%' % (100 * correct / total))
+
+
