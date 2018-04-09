@@ -10,6 +10,8 @@ import torchvision.transforms as transforms
 from torch.autograd import Variable
 import math
 from datetime import datetime
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 # Hyper Parameters
@@ -51,18 +53,47 @@ class Net(nn.Module):
         return out
 
 
+def create_plot(epochs, training, validation):
+    width = 0.4
+    array_epoches = np.arange(len(training))
+    string_epoches = [str(num) for num in epochs]
+
+    # we just want the axis part
+    _, ax = plt.subplots()
+
+    # plot 1
+    training_plot = ax.bar(array_epoches, training, width, color='red', bottom=0)
+    # plot 2
+    validation_plot = ax.bar(array_epoches + width, validation, width, color='blue', bottom=0)
+    # title
+    ax.set_title('Error rate on training vs. test set wrt to training epochs')
+    # so bars are next to each other
+    ax.set_xticks(array_epoches + width / 2)
+    # assigns epochs as tick rates, so our bars are over the tickrates
+    ax.set_xticklabels((string_epoches))
+    plt.xlabel('#Epochs')
+    plt.ylabel('Error rate in %')
+    ax.set_yticks(np.arange(0, 10, 1))
+    ax.set_ylim([0, 10])
+    ax.legend((training_plot[0], validation_plot[0]), ('Training set', 'Test set'))
+    plt.savefig('train_vs_test_epoch.png')
+    plt.show()
+
+
 print('MNIST training set size:...%d' % (len(train_dataset)))
 print('MNIST test set size:.......%d' % (len(test_dataset)))
 
-#training_set_size = 50000
-#validation_set_size = 10000
 
 # number of epochs value set
 EPOCH_values = [5, 10, 20]
 # hidden size value set
-H_values = [16, 32, 64, 128, 256, 512]
+H_values = [16, 32, 64, 128, 256]
 # learning rate value set
-LR_values = [1, 0.5, 0.1, 0.01, 0.001]
+LR_values = [1, 0.5, 0.1, 0.01]
+# training error rate
+training_error = []
+# validation error rate
+test_error = []
 
 best_accuracy = -math.inf
 best_num_epochs = -math.inf
@@ -70,6 +101,8 @@ best_hidden_size = -math.inf
 best_learning_rate = -math.inf
 
 for num_epochs in EPOCH_values:
+    best_train_error_rate_epoch = math.inf
+    best_test_error_rate_epoch = math.inf
     for hidden_size in H_values:
         for learning_rate in LR_values:
             tstart = datetime.now()
@@ -97,22 +130,22 @@ for num_epochs in EPOCH_values:
                     #    print ('Epoch [%d/%d], Step [%d/%d], Loss: %.4f'
                     #           %(epoch+1, num_epochs, i+1, len(train_dataset)//batch_size, loss.data[0]))
 
-            # # Test the Model on training_set and validation_set
-            # correct_train = 0
-            # total_train = 0
-            # correct_val = 0
-            # total_val = 0
-            # for i, (images, labels) in enumerate(train_loader):
-            #     if i < training_set_size:
-            #         images = Variable(images.view(-1, 28*28))
-            #         outputs = net(images)
-            #         _, predicted = torch.max(outputs.data, 1)
-            #         total += labels.size(0)
-            #         correct += (predicted.cpu() == labels).sum()
-            #     else:
+            # collect error rate on training set
+            correct = 0
+            total = 0
+            for images, labels in train_loader:
+                images = Variable(images.view(-1, 28*28))
+                outputs = net(images)
+                _, predicted = torch.max(outputs.data, 1)
+                total += labels.size(0)
+                correct += (predicted.cpu() == labels).sum()
 
+            train_accuracy = (correct / total)
+            train_error_rate = (1-train_accuracy)
+            if train_error_rate < best_train_error_rate_epoch:
+                best_train_error_rate_epoch = train_error_rate
 
-            # Finally, test the Model on test set
+            # collect error rate on test set
             correct = 0
             total = 0
             for images, labels in test_loader:
@@ -122,19 +155,31 @@ for num_epochs in EPOCH_values:
                 total += labels.size(0)
                 correct += (predicted.cpu() == labels).sum()
 
-            current_accuracy = correct / total
+            test_accuracy = correct / total
+            test_error_rate = (1-test_accuracy)
+            if test_error_rate < best_test_error_rate_epoch:
+                best_test_error_rate_epoch = test_error_rate
+
             tend = datetime.now()
-            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | %s | accuracy on test set: %d %%' % (num_epochs, hidden_size, learning_rate, str((tend-tstart)), 100 * current_accuracy))
+            print('Current NN: num_epochs=%d, hidden_size=%d, learning_rate=%f | %s | accuracy train set: %d %% | accuracy test set: %d %%'
+                  % (num_epochs, hidden_size, learning_rate, str((tend-tstart)), 100 * train_accuracy, 100 * test_accuracy))
 
-            #print('Accuracy on test set: %d %%' % (100 * current_accuracy))
-
-
-            if current_accuracy > best_accuracy:
-                best_accuracy = current_accuracy
+            if test_accuracy > best_accuracy:
+                best_accuracy = test_accuracy
                 best_num_epochs = num_epochs
                 best_hidden_size = hidden_size
                 best_learning_rate = learning_rate
 
+    # only take the best error rate each per epoch
+    training_error.append(100 * best_train_error_rate_epoch)
+    test_error.append(100 * best_test_error_rate_epoch)
+
 
 print('Best test accuracy found: %f' % best_accuracy)
 print('NN best parameters: num_epochs=%d, hidden_size=%d, learning_rate=%f' % (num_epochs, hidden_size, learning_rate))
+
+print("EPOCH_values: ", EPOCH_values)
+print("training_error: ", training_error)
+print("test_error: ", test_error)
+create_plot(EPOCH_values, training_error, test_error)
+
