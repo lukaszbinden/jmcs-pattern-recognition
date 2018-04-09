@@ -2,22 +2,15 @@ import numpy as np
 from sklearn.svm import SVC
 
 
-print ('reading data...')
-
 train = np.genfromtxt('../data/MNIST/train_med.csv', delimiter=',')
 test = np.genfromtxt('../data/MNIST/test.csv', delimiter=',')
 
-print ('training model...')
-
-# complexity is quadratic (?), so much more than 10'000 samples might not be possible
-
+# complexity is quadratic (?), so much more than 10'000 (we tried 60'000) samples might not be possible
 y = train[:60000, 0]
 X = train[:60000, 1:] / 255.
 
-
 y_test = test[:, 0]
 X_test = test[:, 1:] / 255.
-
 
 accuracies = np.zeros((6, 6))
 
