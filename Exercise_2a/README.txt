@@ -1,14 +1,9 @@
 Pattern Recognition SS 2018 - Exercise 2a
 =========================================
 
-Results:
+We ran a grid-search to find good parameter values for C (in 10**5 .. 10**9) and Gamma (in 2**-5 .. 2**-2). 
 
-C           Gamma         Accuracy (multiple runs)
-100000.0    0.03125       0.985090, 0.981745, 0.985336, 0.982500, 0.978250
-100000.0    0.0625        0.979753, 0.980077, 0.976494, 0.980841, 0.979753
-
-the other results are for now missing, as the script is still running.
-
+We found that the value of C had almost no effect on the precision while the smallest Gamma value clearly led to the best accurcy of ~98% (cf plot).
 
 
 
