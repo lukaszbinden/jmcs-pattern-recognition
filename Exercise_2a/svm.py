@@ -14,11 +14,13 @@ accuracies = np.zeros((6, 6))
 
 for i in range(0, 6):
     for j in range(0, 6):
-        svm = SVC(verbose=False, kernel='linear', cache_size=4000, gamma=2**(j-5), C=10**(i+5))
+        svm = SVC(verbose=False, kernel='linear', 
+                  cache_size=4000, gamma=2**(j-5), C=10**(i+5))
         svm.fit(X, y)
         pred = svm.predict(X_test)
         accuracies[i,j] = ((y_test == pred).sum() + 0.0) / len(pred)
-        print ('Gamma={0}, C={1}, Acc={2}'.format(2**(j-5), 10**(i+5), accuracies[i,j]))
+        print ('Gamma={0}, C={1}, Acc={2}'
+               .format(2**(j-5), 10**(i+5), accuracies[i,j]))
 
 print accuracies
 
