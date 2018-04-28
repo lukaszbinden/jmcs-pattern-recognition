@@ -1,0 +1,1111 @@
+Reading page 270...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 271...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 272...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 273...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 274...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 275...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 276...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 277...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 278...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Reading page 279...
+   Parsing svg...
+   Splitting into words...
+   Processing bitmaps...
+Seaching for A-l-e-x-a-n-d-r-i-a (273-23-5):
+   Found A-l-e-x-a-n-d-r-i-a (278-6-3) dissimilarityIndex=404117.
+   Found R-e-c-r-u-i-t-s (276-21-3) dissimilarityIndex=483717.
+   Found a-l-l-o-w-a-n-c-e (271-9-1) dissimilarityIndex=502736.
+   Found D-r-u-m-m-e-r (276-18-3) dissimilarityIndex=506814.
+   Found t-o (274-34-1) dissimilarityIndex=509677.
+   Found R-e-c-r-u-i-s_mi (270-18-6) dissimilarityIndex=516543.
+   Found a-l-s-o (279-23-5) dissimilarityIndex=569366.
+   Found D-u-n-c-a-n (274-35-6) dissimilarityIndex=583907.
+   Found t-h-e-i-r (270-25-8) dissimilarityIndex=584280.
+Seaching for C-a-p-t-a-i-n (270-9-1):
+   Found C-a-p-t-a-i-n (278-24-2) dissimilarityIndex=206709.
+   Found C-a-p-t-a-i-n (276-19-8) dissimilarityIndex=210098.
+   Found C-a-p-t-a-i-n (279-19-5) dissimilarityIndex=230343.
+   Found C-a-p-t-a-i-n-s (274-30-9) dissimilarityIndex=244219.
+   Found C-a-p-t-a-i-n (271-6-1) dissimilarityIndex=260546.
+   Found C-a-p-t-a-i-n (275-32-6) dissimilarityIndex=263295.
+   Found C-o-o-p-e-r-s (275-34-10) dissimilarityIndex=319705.
+   Found C-o-m-p-a-n-i-e-s (270-7-6) dissimilarityIndex=346017.
+   Found H-e-d-g-e-m-a-n-s_cm (276-24-3) dissimilarityIndex=348728.
+Seaching for C-l-o-t-h-e-s (271-19-2):
+   Found C-l-o-t-h-i-n-g (273-24-3) dissimilarityIndex=664916.
+   Found t-i-m-e-s_pt (275-34-4) dissimilarityIndex=683580.
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=700767.
+   Found r-a-i-s-e (278-8-1) dissimilarityIndex=716374.
+   Found r-e-c-e-i-v-e-d (278-34-4) dissimilarityIndex=732075.
+   Found l-a-r-i-t-i-e-s (275-11-1) dissimilarityIndex=737926.
+   Found e-a-c-h (279-3-7) dissimilarityIndex=805977.
+   Found a-l-r-e-a-d-y-s_cm (272-26-5) dissimilarityIndex=811287.
+   Found t-h-e (277-22-1) dissimilarityIndex=812292.
+Seaching for C-l-o-t-h-i-n-g (272-15-3):
+   Found C-o-o-p-e-r-s-s_cm (274-24-3) dissimilarityIndex=464289.
+   Found C-a-p-t-a-i-n (270-9-1) dissimilarityIndex=478709.
+   Found C-a-p-t-a-i-n-s (274-30-9) dissimilarityIndex=513113.
+   Found p-i-l-l-a-g-e (275-12-3) dissimilarityIndex=518629.
+   Found C-o-m-p-a-n-i-e-s (273-32-2) dissimilarityIndex=551222.
+   Found C-a-p-t-a-i-n (278-3-3) dissimilarityIndex=567616.
+   Found M-i-l-i-t-a-r-y (271-33-1) dissimilarityIndex=574743.
+   Found o-r-d-e-r (275-10-1) dissimilarityIndex=589373.
+   Found t-h-e-r-e-f-o-r-e (272-12-4) dissimilarityIndex=593123.
+Seaching for C-o-l-o-n-e-l (270-17-5):
+   Found C-o-l-o-n-e-l (273-20-4) dissimilarityIndex=390067.
+   Found p-l-a-c-e (272-14-6) dissimilarityIndex=551819.
+   Found O-r-d-e-r-e-d (271-22-3) dissimilarityIndex=584566.
+   Found r-e-m-a-i-n (274-19-5) dissimilarityIndex=619690.
+   Found C-u-m-b-e-r-l-a-n-d-s_cm (277-6-7) dissimilarityIndex=631090.
+   Found C-o-u-r-t (271-15-7) dissimilarityIndex=638077.
+   Found o-r-d-e-r-e-d-s_cm (271-27-4) dissimilarityIndex=654490.
+   Found R-e-c-r-u-i-t-s (276-24-6) dissimilarityIndex=657401.
+   Found d-e-s-i-r-e-d (272-19-9) dissimilarityIndex=699246.
+Seaching for C-o-m-m-i-s_s-s-a-r-y (273-3-4):
+   Found c-o-m-p-l-e-t-e-l-y (273-25-3) dissimilarityIndex=472202.
+   Found d-i-s-c-i-p-l-i-n-e-s_cm (275-10-3) dissimilarityIndex=582512.
+   Found C-o-m-p-a-n-y-s_pt (273-10-2) dissimilarityIndex=597773.
+   Found p-a-r-t-i-c-u-l-a-r (275-8-2) dissimilarityIndex=604941.
+   Found c-o-m-m-i-s_s-s-a-r-y-s_cm (273-28-5) dissimilarityIndex=606623.
+   Found i-m-m-e-d-i-a-t-e-l-y-s_pt (274-15-2) dissimilarityIndex=612262.
+   Found W-a-i-s-t-c-o-a-t-s-s_cm (279-20-4) dissimilarityIndex=637910.
+   Found i-r-r-e-g-u-s_mi (275-10-8) dissimilarityIndex=659847.
+   Found r-e-m-a-r-k-a-b-l-y (275-7-9) dissimilarityIndex=673506.
+Seaching for C-o-u-r-t (270-23-1):
+   Found H-o-r-s-e-s-s_cm (274-15-6) dissimilarityIndex=438996.
+   Found C-o-l-o-n-e-l (278-32-1) dissimilarityIndex=539862.
+   Found C-o-o-p-e-r-s (275-34-10) dissimilarityIndex=571500.
+   Found l-e-a-s-t (271-34-4) dissimilarityIndex=573545.
+   Found b-u-t (272-10-2) dissimilarityIndex=585361.
+   Found D-a-v-i-d (279-32-5) dissimilarityIndex=597623.
+   Found C-a-p-t-a-i-n (276-30-2) dissimilarityIndex=600443.
+   Found h-a-v-e (272-12-6) dissimilarityIndex=601742.
+   Found T-e-a-m-s (274-17-4) dissimilarityIndex=603111.
+Seaching for C-u-m-b-e-r-l-a-n-d (270-17-3):
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=648948.
+   Found r-e-c-e-i-v-e-d (278-34-4) dissimilarityIndex=653805.
+   Found w-i-n-d-o-w-s (276-35-3) dissimilarityIndex=697946.
+   Found b-l-i-s-h-m-e-n-t-s_pt (273-7-1) dissimilarityIndex=708373.
+   Found C-o-m-p-a-n-i-e-s-s_cm (274-3-5) dissimilarityIndex=711202.
+   Found D-r-u-m-m-e-r (276-18-3) dissimilarityIndex=711930.
+   Found r-e-m-a-i-n-s (275-27-2) dissimilarityIndex=721200.
+   Found h-a-v-e (273-16-5) dissimilarityIndex=725995.
+   Found r-e-c-e-i-v-e-d (272-13-7) dissimilarityIndex=727315.
+Seaching for D-i-c-k (272-29-8):
+   Found t-w-e-l-v-e (270-8-1) dissimilarityIndex=618282.
+   Found O-c-t-o-b-e-r (276-15-3) dissimilarityIndex=648804.
+   Found O-r-d-e-r-s (275-1-2) dissimilarityIndex=665707.
+   Found W-a-l-k-e-r-s_cm (275-25-5) dissimilarityIndex=709452.
+   Found R-e-t-u-r-n (270-27-3) dissimilarityIndex=713353.
+   Found A-i-d (278-11-2) dissimilarityIndex=721204.
+   Found O-r-d-e-r-s (273-1-2) dissimilarityIndex=771923.
+   Found B-a-r-r-e-l-s (274-22-8) dissimilarityIndex=779081.
+   Found O-c-t-o-b-e-r (271-2-5) dissimilarityIndex=781343.
+Seaching for D-o-c-t-o-r (275-25-4):
+   Found D-u-n-c-a-n (274-35-6) dissimilarityIndex=568723.
+   Found B-o-o-k (277-11-2) dissimilarityIndex=598526.
+   Found D-a-v-i-d (279-32-5) dissimilarityIndex=698991.
+   Found d-o-w-n (270-16-5) dissimilarityIndex=714209.
+   Found D-r-u-m-s_cm (274-33-6) dissimilarityIndex=720729.
+   Found a-r-r-i-v-e (271-15-4) dissimilarityIndex=739270.
+   Found t-e-r-m-s (271-10-8) dissimilarityIndex=746911.
+   Found o-r-d-e-r-e-d (276-25-6) dissimilarityIndex=750400.
+   Found D-r-u-m-s-s_pt (279-8-4) dissimilarityIndex=762299.
+Seaching for E-n-s-i-g-n (271-4-3):
+   Found S-e-r-g-e-a-n-t-s (278-34-5) dissimilarityIndex=724348.
+   Found C-a-p-t-a-i-n (277-13-8) dissimilarityIndex=740488.
+   Found S-p-o-t-s-w-o-o-d-s_cm (277-19-5) dissimilarityIndex=757420.
+   Found F-l-e-m-i-n-g-s_cm (271-4-4) dissimilarityIndex=758371.
+   Found D-r-a-u-g-h-t-s (275-32-5) dissimilarityIndex=784641.
+   Found R-e-g-i-m-e-n-t-s_pt (273-21-4) dissimilarityIndex=844917.
+   Found B-r-o-n-a-u-g-h-s_cm (277-14-1) dissimilarityIndex=852768.
+   Found t-h-e-y (277-13-3) dissimilarityIndex=864850.
+   Found V-i-r-g-i-n-i-a (277-20-1) dissimilarityIndex=906655.
+Seaching for F-o-r-t (270-17-2):
+   Found F-o-r-t (276-29-4) dissimilarityIndex=385627.
+   Found S-u-b-a-l-t-e-r-n-s_cm (276-17-2) dissimilarityIndex=567628.
+   Found C-l-e-n-a-c-h-a-n-s_cm (278-26-4) dissimilarityIndex=593315.
+   Found F-o-r-t-s_sq (271-18-5) dissimilarityIndex=626499.
+   Found F-l-o-u-r-s_cm (270-7-2) dissimilarityIndex=642151.
+   Found L-i-e-u-t-e-n-a-n-t (276-27-4) dissimilarityIndex=683611.
+   Found T-o (278-17-2) dissimilarityIndex=684494.
+   Found L-i-e-u-t-e-n-a-n-t (277-32-8) dissimilarityIndex=687718.
+   Found T-e-a-m-s (274-17-4) dissimilarityIndex=701949.
+Seaching for F-o-r-t-s_pt (274-33-1):
+   Found F-o-r-t (274-9-3) dissimilarityIndex=334419.
+   Found t-h-i-n-k (278-21-7) dissimilarityIndex=654948.
+   Found t-h-a-t (276-9-2) dissimilarityIndex=675173.
+   Found t-o (270-25-6) dissimilarityIndex=733821.
+   Found h-i-m (274-29-3) dissimilarityIndex=746965.
+   Found B-e-e-f (272-26-4) dissimilarityIndex=765214.
+   Found f-u-r-t-h-e-r (276-23-8) dissimilarityIndex=784140.
+   Found b-r-o-u-g-h-t (278-18-5) dissimilarityIndex=784391.
+   Found e-i-g-h-t (271-23-8) dissimilarityIndex=792071.
+Seaching for F-r-e-d-e-r-i-c-k-s-b-u-r-g-h-s_cm (277-23-6):
+   Found W-a-s-h-i-n-g-t-o-n-s_cm (270-18-1) dissimilarityIndex=924808.
+   Found R-e-g-i-m-e-n-t-s_pt (277-20-2) dissimilarityIndex=991394.
+   Found C-a-p-t-a-i-n (278-3-3) dissimilarityIndex=994631.
+   Found p-u-n-c-t-u-a-l-l-y (270-21-1) dissimilarityIndex=1006663.
+   Found C-o-r-p-o-r-a-l-s_cm (270-29-4) dissimilarityIndex=1012725.
+   Found F-r-e-d-e-r-i-c-k-s-b-u-r-g-s_cm (278-9-4) dissimilarityIndex=1062949.
+   Found i-m-a-g-i-n-e (275-28-5) dissimilarityIndex=1103740.
+   Found R-e-g-i-m-e-n-t-s_pt (278-4-2) dissimilarityIndex=1108832.
+   Found S-u-r-g-e-o-n (279-5-8) dissimilarityIndex=1109037.
+Seaching for G-e-o-r-g-e (279-16-8):
+   Found G-u-a-r-d (276-19-3) dissimilarityIndex=444879.
+   Found G-i-v-e-n (277-35-1) dissimilarityIndex=466586.
+   Found H-e-d-g-e-m-a-n-s_cm (276-24-3) dissimilarityIndex=513131.
+   Found l-a-r-g-e (272-26-1) dissimilarityIndex=535539.
+   Found G-i-v-e-n (276-11-1) dissimilarityIndex=540283.
+   Found O-f-f-i-c-e-r-s (270-16-2) dissimilarityIndex=549580.
+   Found F-e-r-g-u-s-o-n (272-9-4) dissimilarityIndex=586301.
+   Found H-o-g-g-s (271-23-5) dissimilarityIndex=592510.
+   Found f-r-o-m (279-6-10) dissimilarityIndex=593131.
+Seaching for G-u-a-r-d (270-31-1):
+   Found G-i-v-e-n (276-11-1) dissimilarityIndex=314483.
+   Found G-u-a-r-d (276-19-3) dissimilarityIndex=340534.
+   Found G-a-r-r-i-s-o-n-s_pt (277-26-4) dissimilarityIndex=379659.
+   Found G-o-o-s-e (274-27-1) dissimilarityIndex=396293.
+   Found G-i-v-e-n (278-9-1) dissimilarityIndex=441851.
+   Found f-r-o-m (274-21-3) dissimilarityIndex=450171.
+   Found p-a-i-d (278-28-4) dissimilarityIndex=451376.
+   Found l-e-f-t (275-15-4) dissimilarityIndex=465619.
+   Found Y-o-u-r (271-29-7) dissimilarityIndex=467834.
+Seaching for I-n-s-t-r-u-c-t-i-o-n-s-s_pt (270-1-5):
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=730447.
+   Found I-n-s-t-r-u-c-t-i-o-n-s-s_pt (274-1-5) dissimilarityIndex=764476.
+   Found C-u-m-b-e-r-l-a-n-d-s_cm (273-32-5) dissimilarityIndex=849159.
+   Found u-n-d-e-r (275-17-2) dissimilarityIndex=852112.
+   Found I-n-s-t-r-u-c-t-i-o-n-s-s_pt (276-2-5) dissimilarityIndex=864679.
+   Found r-e-c-e-i-v-e-d (272-13-7) dissimilarityIndex=870573.
+   Found i-m-m-e-d-i-s_mi (271-24-9) dissimilarityIndex=875935.
+   Found S-t-o-c-k-i-n-g-s-s_cm (279-22-3) dissimilarityIndex=879699.
+   Found d-i-r-e-c-t-i-o-n-s (275-23-3) dissimilarityIndex=882221.
+Seaching for J-o-h-n (278-3-4):
+   Found L-e-t-t-e-r-s-s_cm (270-1-2) dissimilarityIndex=539351.
+   Found l-i-v-e-r (279-30-1) dissimilarityIndex=634507.
+   Found H-e (272-16-5) dissimilarityIndex=646150.
+   Found s_et-c-s_pt (271-10-4) dissimilarityIndex=659298.
+   Found F-o-r-t (276-33-4) dissimilarityIndex=673264.
+   Found h-i-m-s_pt (272-30-7) dissimilarityIndex=673383.
+   Found h-e-r-e (276-21-6) dissimilarityIndex=707728.
+   Found h-i-m (274-32-6) dissimilarityIndex=781867.
+   Found t-h-o-s-e (278-33-3) dissimilarityIndex=789200.
+Seaching for L-e-t-t-e-r-s (276-2-2):
+   Found L-e-t-t-e-r-s-s_cm (272-2-2) dissimilarityIndex=495265.
+   Found L-e-t-t-e-r-s-s_cm (278-1-2) dissimilarityIndex=704031.
+   Found S-e-l-l-a-r-s (270-10-4) dissimilarityIndex=762682.
+   Found C-o-f-f-i-n-s_cm (279-14-1) dissimilarityIndex=774945.
+   Found W-i-l-p-e-r-s_cm (279-24-1) dissimilarityIndex=782467.
+   Found S-e-r-g-e-a-n-t (274-9-7) dissimilarityIndex=814504.
+   Found S-u-b-a-l-t-e-r-n-s_cm (276-17-2) dissimilarityIndex=842437.
+   Found S-e-r-g-e-a-n-t (274-34-8) dissimilarityIndex=895904.
+   Found L-e-t-t-e-r-s-s_cm (279-1-1) dissimilarityIndex=899208.
+Seaching for L-i-e-u-t-e-n-a-n-t (273-9-3):
+   Found L-i-e-u-t-e-n-a-n-t (273-20-3) dissimilarityIndex=438800.
+   Found I-n-d-e-p-e-n-d-a-n-t (273-10-1) dissimilarityIndex=518376.
+   Found M-e-r-c-e-r (278-3-5) dissimilarityIndex=533118.
+   Found L-i-e-u-t-e-n-a-n-t (276-22-1) dissimilarityIndex=550089.
+   Found d-i-s-o-b-e-d-i-e-n-c-e (270-23-4) dissimilarityIndex=553627.
+   Found M-a-r-y-l-a-n-d (273-9-7) dissimilarityIndex=609421.
+   Found f-u-r-n-i-s-h-e-d (273-25-4) dissimilarityIndex=617753.
+   Found a-l-r-e-a-d-y-s_cm (272-26-5) dissimilarityIndex=622710.
+   Found m-e-d-i-c-i-n-e-s-s_sq (279-4-6) dissimilarityIndex=637677.
+Seaching for M-a-j-o-r (275-14-6):
+   Found i-m-a-g-i-n-e (275-28-5) dissimilarityIndex=436315.
+   Found t-h-e-y (277-5-3) dissimilarityIndex=562691.
+   Found t-h-e-r-e-f-o-r-e (272-12-4) dissimilarityIndex=564603.
+   Found w-h-a-t-s-o-e-v-e-r-s_cm (277-30-6) dissimilarityIndex=586841.
+   Found S-e-r-g-e-a-n-t (279-18-2) dissimilarityIndex=610022.
+   Found l-a-r-g-e (272-26-1) dissimilarityIndex=610608.
+   Found S-i-r-s_cm (273-11-1) dissimilarityIndex=620623.
+   Found i-r-r-e-g-u-s_mi (275-10-8) dissimilarityIndex=625338.
+   Found p-u-r-c-h-a-s-e (275-27-5) dissimilarityIndex=645289.
+Seaching for M-r-s_pt (272-29-7):
+   Found A-s (274-9-6) dissimilarityIndex=328712.
+   Found t-h-e (278-22-7) dissimilarityIndex=361784.
+   Found a-l-l (274-22-1) dissimilarityIndex=406025.
+   Found t-o (275-3-11) dissimilarityIndex=424561.
+   Found t-h-e (279-19-2) dissimilarityIndex=436492.
+   Found t-o (279-7-5) dissimilarityIndex=447105.
+   Found t-h-e (271-4-6) dissimilarityIndex=449064.
+   Found t-h-e (270-25-4) dissimilarityIndex=473231.
+   Found c-l-o-s_mi (276-36-10) dissimilarityIndex=497236.
+Seaching for O-f-f-i-c-e-r-s (270-16-2):
+   Found s-u-f-f-i-c-e (272-28-1) dissimilarityIndex=425235.
+   Found E-u-s-t-a-c-e-s_cm (276-27-5) dissimilarityIndex=489006.
+   Found e-x-p-e-c-t (271-11-6) dissimilarityIndex=489786.
+   Found R-a-n-g-e-r-s-s_cm (273-13-10) dissimilarityIndex=513750.
+   Found O-f-f-i-c-e-r (277-10-7) dissimilarityIndex=515439.
+   Found O-f-f-i-c-e-r (270-26-4) dissimilarityIndex=542462.
+   Found G-e-o-r-g-e (279-16-8) dissimilarityIndex=549295.
+   Found V-i-r-g-i-n-i-a (279-32-9) dissimilarityIndex=556656.
+   Found d-e-z-v-o-u-s (278-6-1) dissimilarityIndex=563501.
+Seaching for O-r-d-e-r (271-11-4):
+   Found a-n-d (276-26-3) dissimilarityIndex=480434.
+   Found O-c-t-o-b-e-r (277-2-5) dissimilarityIndex=536910.
+   Found o-r-d-e-r-s-s_mi (276-24-1) dissimilarityIndex=589658.
+   Found O-c-t-o-b-e-r (275-1-5) dissimilarityIndex=642769.
+   Found d-i-s-t-i-n-c-s_mi (278-29-8) dissimilarityIndex=658608.
+   Found A-r-m-s (277-5-9) dissimilarityIndex=700005.
+   Found d-o-w-n (270-5-1) dissimilarityIndex=702809.
+   Found e-n-t-e-r (277-9-7) dissimilarityIndex=707324.
+   Found o-r-d-e-r-s-s_mi (276-27-3) dissimilarityIndex=711128.
+Seaching for O-r-d-e-r-s (270-1-3):
+   Found O-r-d-e-r-s (278-1-3) dissimilarityIndex=371210.
+   Found o-r-d-e-r-e-d-s_cm (271-27-4) dissimilarityIndex=553809.
+   Found O-r-d-e-r-e-d (271-22-3) dissimilarityIndex=567418.
+   Found O-r-d-e-r-s (275-1-2) dissimilarityIndex=647123.
+   Found o-r-d-e-r-s-s_mi (276-24-1) dissimilarityIndex=673777.
+   Found O-r-d-e-r-s (270-4-2) dissimilarityIndex=674612.
+   Found o-r-d-e-r-e-d (272-11-1) dissimilarityIndex=687208.
+   Found O-r-d-e-r-s (277-2-2) dissimilarityIndex=720499.
+   Found r-e-s-t (270-10-7) dissimilarityIndex=725212.
+Seaching for O-r-d-e-r-s-s_pt (270-23-6):
+   Found O-r-d-e-r-s (270-4-2) dissimilarityIndex=211438.
+   Found a-n-d (274-14-7) dissimilarityIndex=480777.
+   Found A-l-e-x-s_mi (278-14-8) dissimilarityIndex=554700.
+   Found O-r-d-e-r-s (279-1-2) dissimilarityIndex=576731.
+   Found B-e-l-l (271-13-8) dissimilarityIndex=583784.
+   Found a-n-d (276-26-3) dissimilarityIndex=658561.
+   Found O-r-d-e-r-s (271-2-2) dissimilarityIndex=659575.
+   Found t-u-r-n (276-32-1) dissimilarityIndex=670446.
+   Found R-e-t-u-r-n-s (272-8-4) dissimilarityIndex=672547.
+Seaching for P-a-r-o-l-e (270-15-1):
+   Found o-b-s-e-r-v-e (275-9-4) dissimilarityIndex=781014.
+   Found C-a-t-t-l-e (275-24-3) dissimilarityIndex=794584.
+   Found D-r-u-m-m-e-r (276-18-3) dissimilarityIndex=836886.
+   Found P-r-i-c-e-s_sq (276-22-5) dissimilarityIndex=884470.
+   Found D-u-n-c-a-n (274-35-6) dissimilarityIndex=906399.
+   Found C-o-u-r-t (270-23-1) dissimilarityIndex=911131.
+   Found l-i-v-e-r (279-30-1) dissimilarityIndex=913479.
+   Found w-h-i-c-h (270-8-4) dissimilarityIndex=933513.
+   Found R-e-c-r-u-i-t-s (276-21-3) dissimilarityIndex=958088.
+Seaching for R-e-c-r-u-i-t-s (276-21-3):
+   Found R-e-c-r-u-i-t-s-s_pt (277-7-1) dissimilarityIndex=459873.
+   Found A-l-e-x-a-n-d-r-i-a (273-23-5) dissimilarityIndex=484908.
+   Found D-r-u-m-m-e-r (276-18-3) dissimilarityIndex=569885.
+   Found R-e-c-r-u-i-t-s (276-24-6) dissimilarityIndex=575298.
+   Found R-e-c-r-u-i-t (273-6-1) dissimilarityIndex=581162.
+   Found t-h-o-u-s-a-n-d (270-6-5) dissimilarityIndex=585725.
+   Found R-e-c-r-u-i-t-s (278-27-4) dissimilarityIndex=648474.
+   Found D-e-c-e-m-b-e-r-s_pt (271-29-6) dissimilarityIndex=672472.
+   Found a-n-d (279-4-2) dissimilarityIndex=676717.
+Seaching for R-e-g-i-m-e-n-t (275-4-7):
+   Found D-r-u-m-m-e-r-s_cm (270-29-6) dissimilarityIndex=410153.
+   Found P-r-o-v-i-s-i-o-n-s-s_cm (275-35-7) dissimilarityIndex=475394.
+   Found S-e-r-g-e-a-n-t (274-34-8) dissimilarityIndex=488081.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=495825.
+   Found C-a-p-t-a-i-n (276-19-8) dissimilarityIndex=504316.
+   Found V-i-r-g-i-n-i-a (275-4-6) dissimilarityIndex=514724.
+   Found l-a-r-g-e (272-26-1) dissimilarityIndex=525884.
+   Found W-a-g-g-e-n-e-r (276-30-3) dissimilarityIndex=533754.
+   Found C-o-m-p-a-n-y-s_pt (272-28-5) dissimilarityIndex=557503.
+Seaching for R-e-g-i-m-e-n-t-s_pt (271-4-8):
+   Found R-e-g-i-m-e-n-t-s_pt (271-21-8) dissimilarityIndex=623223.
+   Found O-f-f-i-c-e-r (271-35-7) dissimilarityIndex=639474.
+   Found R-e-g-i-m-e-n-t (275-4-7) dissimilarityIndex=656856.
+   Found p-r-o-v-i-d-e (276-4-1) dissimilarityIndex=694841.
+   Found A-s (274-9-6) dissimilarityIndex=710522.
+   Found p-l-a-c-e (270-21-5) dissimilarityIndex=718326.
+   Found C-o-m-p-a-n-i-e-s-s_cm (276-32-5) dissimilarityIndex=723489.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=724434.
+   Found p-r-o-v-i-d-e (277-10-10) dissimilarityIndex=734085.
+Seaching for R-e-n-d-e-z-v-o-u-s (277-15-5):
+   Found K-i-n-g-s_cm (276-26-2) dissimilarityIndex=417088.
+   Found t-h-e-r-e-f-o-r-e (272-12-4) dissimilarityIndex=453609.
+   Found a-r-r-i-v-e-s_cm (277-22-5) dissimilarityIndex=460138.
+   Found C-a-p-t-a-i-n (274-11-7) dissimilarityIndex=479799.
+   Found F-l-e-m-i-n-g-s_cm (272-18-3) dissimilarityIndex=481840.
+   Found z-i-e-r (277-33-1) dissimilarityIndex=483991.
+   Found h-i-m-s_cm (276-28-5) dissimilarityIndex=490339.
+   Found R-e-n-d-e-z-v-o-u-s (277-23-4) dissimilarityIndex=490567.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=514588.
+Seaching for R-e-t-u-r-n (270-27-3):
+   Found R-e-t-u-r-n-s (270-32-8) dissimilarityIndex=303950.
+   Found R-e-c-r-u-i-s_mi (270-25-9) dissimilarityIndex=478127.
+   Found O-r-d-e-r-s (270-4-2) dissimilarityIndex=525198.
+   Found O-c-t-o-b-e-r (276-12-2) dissimilarityIndex=564520.
+   Found A-r-m-s (277-5-9) dissimilarityIndex=569508.
+   Found o-r-d-e-r-s-s_mi (276-24-1) dissimilarityIndex=586631.
+   Found d-e-l-i-v-e-r-e-d (279-28-6) dissimilarityIndex=612023.
+   Found d-e-s-i-r-e (276-8-4) dissimilarityIndex=620187.
+   Found c-a-n (278-7-7) dissimilarityIndex=622110.
+Seaching for R-o-b-e-r-t (277-19-4):
+   Found P-r-i-c-e-s_sq (276-22-5) dissimilarityIndex=830238.
+   Found S-o-l-d-i-e-r (279-4-3) dissimilarityIndex=888172.
+   Found d-i-s-p-l-e-a-s-e-d (271-30-6) dissimilarityIndex=902758.
+   Found s-h-a-l-l (275-23-6) dissimilarityIndex=917893.
+   Found R-e-t-u-r-n (270-27-3) dissimilarityIndex=929779.
+   Found a-l-l-o-w-e-d (270-19-5) dissimilarityIndex=935047.
+   Found M-r-s_pt (278-17-3) dissimilarityIndex=942363.
+   Found t-h-a-t (271-35-8) dissimilarityIndex=953799.
+   Found w-h-a-t-e-v-e-r (275-30-7) dissimilarityIndex=953806.
+Seaching for S-a-l-t (273-27-7):
+   Found t-h-e (278-3-7) dissimilarityIndex=665347.
+   Found t-h-e (272-33-2) dissimilarityIndex=705521.
+   Found h-e-a-r (274-20-5) dissimilarityIndex=726905.
+   Found H-e-d-g-e-m-a-n-s_cm (276-24-3) dissimilarityIndex=739734.
+   Found t-h-a-n (272-27-6) dissimilarityIndex=750181.
+   Found h-i-s (271-26-2) dissimilarityIndex=785864.
+   Found D-r-u-m-m-e-r-s_cm (274-33-3) dissimilarityIndex=789829.
+   Found i-s (275-3-2) dissimilarityIndex=800406.
+   Found i-s (271-25-5) dissimilarityIndex=804005.
+Seaching for S-e-r-g-e-a-n-t (271-16-2):
+   Found S-e-r-g-e-a-n-t-s_cm (270-29-2) dissimilarityIndex=397192.
+   Found V-i-r-g-i-n-i-a (278-4-1) dissimilarityIndex=454264.
+   Found S-e-r-g-e-a-n-t (272-13-4) dissimilarityIndex=460465.
+   Found t-h-e-y (275-6-3) dissimilarityIndex=481003.
+   Found t-h-e-y (275-16-2) dissimilarityIndex=489760.
+   Found C-a-p-t-a-i-n (278-13-2) dissimilarityIndex=501427.
+   Found p-l-a-c-e (274-34-6) dissimilarityIndex=507784.
+   Found R-e-g-i-m-e-n-t-s_pt (277-20-2) dissimilarityIndex=523338.
+   Found H-o-g-g-s (279-19-6) dissimilarityIndex=524925.
+Seaching for S-e-r-g-e-a-n-t-s_cm (270-29-2):
+   Found S-e-r-g-e-a-n-t (271-16-2) dissimilarityIndex=397202.
+   Found o-b-s-e-r-v-i-n-g (273-27-1) dissimilarityIndex=444981.
+   Found C-a-p-t-a-i-n (270-9-1) dissimilarityIndex=451644.
+   Found h-e-r-e-b-y (279-9-1) dissimilarityIndex=457507.
+   Found S-e-r-g-e-a-n-t-s_cm (276-17-4) dissimilarityIndex=491088.
+   Found a-r-r-i-v-e-s_cm (277-22-5) dissimilarityIndex=498601.
+   Found D-r-u-m-m-e-r-s_cm (270-29-6) dissimilarityIndex=505662.
+   Found r-e-c-e-i-v-e-d (278-34-4) dissimilarityIndex=513482.
+   Found C-o-m-p-a-n-i-e-s-s_cm (274-3-5) dissimilarityIndex=516613.
+Seaching for S-h-i-r-t-s-s_cm (279-21-5):
+   Found I-n-d-e-p-e-n-d-a-n-t (273-10-1) dissimilarityIndex=729422.
+   Found S-t-e-w-a-r-t-s_cm (277-14-3) dissimilarityIndex=733086.
+   Found t-h-i-n-g-s (274-14-1) dissimilarityIndex=764430.
+   Found P-a-r-t-y-s_cm (271-16-6) dissimilarityIndex=772248.
+   Found V-i-r-g-i-n-i-a (278-4-1) dissimilarityIndex=780287.
+   Found P-r-o-v-i-s-i-o-n-s-s_sq (273-14-8) dissimilarityIndex=785831.
+   Found S-t-e-p-h-e-n (278-32-2) dissimilarityIndex=792442.
+   Found w-h-a-t-s-o-e-v-e-r-s_cm (277-30-6) dissimilarityIndex=821483.
+   Found L-i-e-u-t-e-n-a-n-t (273-9-3) dissimilarityIndex=826208.
+Seaching for S-o-l-d-i-e-r-s (274-24-1):
+   Found u-s-e (272-21-6) dissimilarityIndex=536993.
+   Found t-h-e-r-e (275-7-4) dissimilarityIndex=614324.
+   Found a-r-r-i-v-e (276-29-2) dissimilarityIndex=646697.
+   Found L-i-e-u-t-e-n-a-n-t (276-27-4) dissimilarityIndex=655831.
+   Found a-r-r-i-v-e (277-6-4) dissimilarityIndex=675248.
+   Found m-e-d-i-c-i-n-e-s-s_sq (279-4-6) dissimilarityIndex=676664.
+   Found m-e-d-i-c-i-n-e-s-s_cm (271-10-3) dissimilarityIndex=681297.
+   Found r-e-c-e-i-v-e-s_pt (277-5-4) dissimilarityIndex=684042.
+   Found w-i-n-d-o-w-s (276-35-3) dissimilarityIndex=684074.
+Seaching for S-t-e-w-a-r-t-s_cm (277-14-3):
+   Found D-r-u-m-m-e-r-s_cm (270-29-6) dissimilarityIndex=450759.
+   Found h-i-s (277-8-1) dissimilarityIndex=503420.
+   Found H-o-r-s-e-s-s_cm (274-15-6) dissimilarityIndex=503707.
+   Found f-r-o-m (270-17-1) dissimilarityIndex=507760.
+   Found S-e-r-g-e-a-n-t-s_cm (270-29-2) dissimilarityIndex=533233.
+   Found S-u-b-a-l-t-e-r-n-s_cm (276-17-2) dissimilarityIndex=551769.
+   Found L-i-e-u-t-e-n-a-n-t (277-32-8) dissimilarityIndex=585919.
+   Found f-r-o-m (274-34-4) dissimilarityIndex=586109.
+   Found L-i-e-u-t-e-n-a-n-t (276-27-4) dissimilarityIndex=596748.
+Seaching for S-t-o-r-e-s (274-26-3):
+   Found h-e-n-c-e-s_pt (278-27-2) dissimilarityIndex=330285.
+   Found S-t-o-r-e-s_qo (279-29-5) dissimilarityIndex=368804.
+   Found h-e-a-r (274-20-5) dissimilarityIndex=415765.
+   Found S-o-r-e (272-10-7) dissimilarityIndex=461746.
+   Found S-t-e-p-h-e-n (278-18-3) dissimilarityIndex=523976.
+   Found h-a-v-e (272-25-4) dissimilarityIndex=568721.
+   Found h-e-r-e (276-21-6) dissimilarityIndex=572317.
+   Found s_lb-s_1-s_0-s_0-s_0 (278-19-1) dissimilarityIndex=588805.
+   Found S-e-r-g-e-a-n-t (276-31-6) dissimilarityIndex=590430.
+Seaching for S-u-i-t-s (274-6-1):
+   Found o-r-d-e-r-e-d (279-29-9) dissimilarityIndex=467030.
+   Found S-u-b-a-l-t-e-r-n-s_cm (276-17-2) dissimilarityIndex=525878.
+   Found s-h-o-u-l-d (273-5-1) dissimilarityIndex=539922.
+   Found h-a-d (274-16-7) dissimilarityIndex=564554.
+   Found C-a-t-t-l-e (275-24-3) dissimilarityIndex=634881.
+   Found S-t-e-p-h-e-n (278-18-3) dissimilarityIndex=655404.
+   Found o-r-d-e-r-e-d (276-23-2) dissimilarityIndex=660532.
+   Found k-n-o-w (276-5-3) dissimilarityIndex=673469.
+   Found f-r-o-m (270-17-1) dissimilarityIndex=702397.
+Seaching for V-i-r-g-i-n-i-a (271-4-7):
+   Found S-e-r-g-e-a-n-t-s_cm (270-29-2) dissimilarityIndex=553454.
+   Found r-e-g-a-r-d (271-32-6) dissimilarityIndex=556491.
+   Found C-a-p-t-a-i-n (272-4-3) dissimilarityIndex=629527.
+   Found C-a-p-t-a-i-n (271-6-1) dissimilarityIndex=635903.
+   Found D-r-u-m-m-e-r-s_cm (270-29-6) dissimilarityIndex=640137.
+   Found S-e-r-g-e-a-n-t (276-31-6) dissimilarityIndex=652339.
+   Found G-u-a-r-d (276-19-3) dissimilarityIndex=656434.
+   Found r-e-p-a-i-r (271-5-6) dissimilarityIndex=656506.
+   Found V-i-r-g-i-n-i-a (275-4-6) dissimilarityIndex=656964.
+Seaching for W-a-g-g-o-n-s (273-23-2):
+   Found w-a-g-g-o-n-s (274-10-8) dissimilarityIndex=523253.
+   Found a-p-p-e-a-r (270-21-2) dissimilarityIndex=684852.
+   Found m-e-n-s_qo (271-7-4) dissimilarityIndex=749370.
+   Found H-o-s-p-i-t-a-l-s_cm (272-32-7) dissimilarityIndex=785167.
+   Found m-a-n (279-13-2) dissimilarityIndex=807072.
+   Found C-a-p-t-a-i-n (278-24-2) dissimilarityIndex=808141.
+   Found W-a-g-g-e-n-e-r (276-30-3) dissimilarityIndex=834187.
+   Found w-a-g-s_mi (273-29-9) dissimilarityIndex=834903.
+   Found p-u-r-p-o-s-e (273-33-6) dissimilarityIndex=839044.
+Seaching for W-a-s-h-i-n-g-t-o-n-s_cm (270-18-1):
+   Found R-e-n-d-e-z-v-o-u-s (277-23-4) dissimilarityIndex=589748.
+   Found S-t-o-c-k-i-n-g-s-s_cm (279-22-3) dissimilarityIndex=621170.
+   Found R-e-n-d-e-z-v-o-u-s (277-15-5) dissimilarityIndex=636019.
+   Found C-o-m-p-a-n-y-s_sq (274-12-2) dissimilarityIndex=684395.
+   Found p-r-o-v-i-d-e (276-4-1) dissimilarityIndex=720285.
+   Found D-r-a-u-g-h-t-s (275-32-5) dissimilarityIndex=721432.
+   Found f-a-s-t-e-n-i-n-g (276-34-7) dissimilarityIndex=724740.
+   Found m-e-d-i-c-i-n-e-s-s_cm (271-10-3) dissimilarityIndex=749466.
+   Found q-u-a-n-t-i-t-y (279-22-7) dissimilarityIndex=752334.
+Seaching for W-i-n-c-h-e-s-t-e-r (276-12-1):
+   Found R-e-c-r-u-i-t-s-s_pt (277-7-1) dissimilarityIndex=636587.
+   Found D-e-c-e-m-b-e-r-s_pt (271-29-6) dissimilarityIndex=734275.
+   Found R-e-c-r-u-i-t-s (278-27-4) dissimilarityIndex=757845.
+   Found L-i-e-u-t-e-n-a-n-t (277-32-8) dissimilarityIndex=813144.
+   Found R-e-t-u-r-n (274-4-3) dissimilarityIndex=818411.
+   Found D-r-u-m-m-e-r (276-18-3) dissimilarityIndex=820145.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=825193.
+   Found r-e-c-e-i-v-e (274-25-7) dissimilarityIndex=835956.
+   Found S-t-o-c-k-a-d-e-s (273-12-3) dissimilarityIndex=836388.
+Seaching for W-i-n-c-h-e-s-t-e-r-s_cm (270-6-1):
+   Found E-x-p-e-d-i-t-i-o-n-s_cm (276-4-7) dissimilarityIndex=736873.
+   Found r-e-c-e-i-v-e-d (272-13-7) dissimilarityIndex=743717.
+   Found D-i-n-w-i-d-d-i-e (271-6-6) dissimilarityIndex=763312.
+   Found r-e-c-e-i-v-e-d (272-7-2) dissimilarityIndex=765936.
+   Found C-o-m-m-i-s_s-s-i-o-n-s_pt (271-36-3) dissimilarityIndex=817390.
+   Found C-o-m-m-i-s_s-s-a-r-y (273-3-4) dissimilarityIndex=833446.
+   Found R-e-c-r-u-i-t-s-s_pt (277-7-1) dissimilarityIndex=835562.
+   Found r-e-c-e-i-v-e-s_pt (277-5-4) dissimilarityIndex=850429.
+   Found W-i-l-p-e-r (279-18-3) dissimilarityIndex=864203.
+Seaching for W-i-n-c-h-e-s-t-e-r-s_qo (270-14-2):
+   Found S-t-o-c-k-a-d-e-s (273-12-3) dissimilarityIndex=696515.
+   Found R-e-t-u-r-n (274-4-3) dissimilarityIndex=699847.
+   Found B-a-r-r-e-l (270-5-3) dissimilarityIndex=747934.
+   Found h-e-r-d-s-m-e-n (274-19-3) dissimilarityIndex=748477.
+   Found t-i-m-e (275-34-2) dissimilarityIndex=792731.
+   Found b-e-r-l-a-n-d-s_cm (274-5-1) dissimilarityIndex=800354.
+   Found P-l-a-n-t-a-t-i-o-n (270-10-1) dissimilarityIndex=807695.
+   Found F-o-r-t (275-24-5) dissimilarityIndex=817307.
+   Found t-h-o-u-s-a-n-d (270-6-5) dissimilarityIndex=821250.
+Seaching for a-b-s-o-l-u-t-e-l-y (278-21-9):
+   Found o-b-s-e-r-v-i-n-g (273-27-1) dissimilarityIndex=600665.
+   Found p-u-r-c-h-a-s-i-n-g (272-35-4) dissimilarityIndex=618034.
+   Found p-a-c-k-i-n-g (274-23-2) dissimilarityIndex=629129.
+   Found m-a-r-c-h-s_sq (277-29-4) dissimilarityIndex=635129.
+   Found m-a-r-c-h-s_cm (272-17-5) dissimilarityIndex=659377.
+   Found M-i-l-i-t-a-r-y (271-33-1) dissimilarityIndex=663007.
+   Found a-l-r-e-a-d-y-s_cm (272-26-5) dissimilarityIndex=666732.
+   Found d-i-s-p-a-t-c-h (277-25-4) dissimilarityIndex=679761.
+   Found m-e-d-i-a-t-e-l-y (274-25-1) dissimilarityIndex=686977.
+Seaching for a-r-r-i-v-e (271-15-4):
+   Found a-r-r-i-v-e (275-22-7) dissimilarityIndex=313998.
+   Found r-a-i-s-e (278-8-1) dissimilarityIndex=402965.
+   Found a-r-r-i-v-e (277-26-8) dissimilarityIndex=412558.
+   Found a-r-r-i-v-e-s_cm (274-12-7) dissimilarityIndex=440911.
+   Found t-i-m-e (273-16-1) dissimilarityIndex=469876.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=473331.
+   Found m-u-s-t (275-8-4) dissimilarityIndex=480449.
+   Found w-a-i-t (270-24-4) dissimilarityIndex=491681.
+   Found d-o-w-n (270-5-1) dissimilarityIndex=493158.
+Seaching for a-r-r-i-v-e-s_cm (274-12-7):
+   Found a-r-r-i-v-e (276-29-2) dissimilarityIndex=290145.
+   Found a-r-r-i-v-e (277-6-4) dissimilarityIndex=360580.
+   Found a-r-r-i-v-e (273-23-3) dissimilarityIndex=369824.
+   Found a-r-r-i-v-e (275-22-7) dissimilarityIndex=380763.
+   Found r-e-c-e-i-v-e-s_pt (277-5-4) dissimilarityIndex=425107.
+   Found i-n (270-27-1) dissimilarityIndex=440835.
+   Found a-r-r-i-v-e (271-15-4) dissimilarityIndex=440955.
+   Found m-a-r-c-h-s_cm (272-17-5) dissimilarityIndex=442661.
+   Found m-a-r-c-h-s_sq (277-29-4) dissimilarityIndex=453276.
+Seaching for a-t-e-l-y (271-12-1):
+   Found t-h-e-y (276-29-1) dissimilarityIndex=450585.
+   Found t-h-e-y (271-31-7) dissimilarityIndex=471668.
+   Found t-h-e-y (277-12-4) dissimilarityIndex=677363.
+   Found t-h-e-y (275-6-3) dissimilarityIndex=685013.
+   Found u-n-f-i-t (272-12-1) dissimilarityIndex=727398.
+   Found i-m-p-o-s_s-s-i-s_mi (272-23-11) dissimilarityIndex=731149.
+   Found O-f-f-i-c-e-r (277-10-7) dissimilarityIndex=744132.
+   Found w-h-a-t-s-o-e-v-e-r-s_cm (277-30-6) dissimilarityIndex=760521.
+   Found C-o-u-n-t-r-y-s_cm (275-12-5) dissimilarityIndex=775189.
+Seaching for c-a-m-p-s_pt (278-11-4):
+   Found c-a-m-p (270-24-9) dissimilarityIndex=311786.
+   Found p-a-y-s_cm (278-34-6) dissimilarityIndex=405521.
+   Found u-p (273-33-3) dissimilarityIndex=440911.
+   Found p-r-e-s-e-n-t-s_cm (270-26-5) dissimilarityIndex=443912.
+   Found u-p-o-n (270-24-5) dissimilarityIndex=513938.
+   Found C-o-m-p-a-n-y (276-29-7) dissimilarityIndex=514853.
+   Found p-a-i-r (273-34-6) dissimilarityIndex=520984.
+   Found R-a-n-g-e-r-s (274-31-2) dissimilarityIndex=523702.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-3-10) dissimilarityIndex=533226.
+Seaching for c-a-r-e (272-20-2):
+   Found c-a-s-e (274-6-6) dissimilarityIndex=295075.
+   Found c-a-n (274-22-5) dissimilarityIndex=502515.
+   Found o-n-e (276-17-3) dissimilarityIndex=525481.
+   Found c-a-n (272-24-3) dissimilarityIndex=560374.
+   Found a-r-e (273-13-1) dissimilarityIndex=575421.
+   Found a-r-e (270-18-2) dissimilarityIndex=597939.
+   Found n-o-n-e (278-31-1) dissimilarityIndex=606245.
+   Found n-o-w (276-35-8) dissimilarityIndex=647086.
+   Found o-n-e (274-16-9) dissimilarityIndex=651595.
+Seaching for c-a-r-e-f-u-l (272-34-5):
+   Found c-o-m-p-l-i-e-d (271-25-2) dissimilarityIndex=429378.
+   Found n-e-c-e-s_s-s-a-r-i-e-s (276-4-4) dissimilarityIndex=454737.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-3-10) dissimilarityIndex=461151.
+   Found e-x-p-e-c-t (271-24-5) dissimilarityIndex=483008.
+   Found u-p-o-n (276-20-4) dissimilarityIndex=485831.
+   Found v-i-g-o-u-r-s_pt (273-17-7) dissimilarityIndex=495700.
+   Found e-i-g-h-t (279-19-8) dissimilarityIndex=514742.
+   Found s-e-e (275-26-1) dissimilarityIndex=522438.
+   Found n-e-c-e-s_s-s-a-r-y (275-28-8) dissimilarityIndex=547093.
+Seaching for c-a-r-r-y (271-31-3):
+   Found a-n-y (278-34-2) dissimilarityIndex=283209.
+   Found a-n-y (279-10-8) dissimilarityIndex=395420.
+   Found a-n-y (277-30-4) dissimilarityIndex=421443.
+   Found v-e-r-y (277-28-7) dissimilarityIndex=540917.
+   Found d-a-y-s_pt (272-9-3) dissimilarityIndex=546828.
+   Found a-n-y (273-15-5) dissimilarityIndex=566262.
+   Found e-v-e-r-y (275-5-4) dissimilarityIndex=570768.
+   Found a-n-y (274-23-7) dissimilarityIndex=609216.
+   Found v-e-r-y (277-4-8) dissimilarityIndex=610611.
+Seaching for d-a-y (275-5-5):
+   Found o-f (275-13-3) dissimilarityIndex=347592.
+   Found d-a-y (276-19-6) dissimilarityIndex=424773.
+   Found i-f (271-8-4) dissimilarityIndex=468970.
+   Found i-f (275-7-3) dissimilarityIndex=490719.
+   Found v-i-g-o-u-r-s_pt (273-17-7) dissimilarityIndex=518168.
+   Found a-n-y (279-10-8) dissimilarityIndex=525472.
+   Found i-f (270-20-5) dissimilarityIndex=553490.
+   Found y-o-u (278-25-3) dissimilarityIndex=567312.
+   Found l-o-d-g-e-d (272-29-5) dissimilarityIndex=569164.
+Seaching for d-e (270-24-8):
+   Found d-o (271-8-7) dissimilarityIndex=162209.
+   Found b-e (279-6-8) dissimilarityIndex=438481.
+   Found t-o (270-30-7) dissimilarityIndex=455642.
+   Found b-e (276-26-4) dissimilarityIndex=461180.
+   Found t-h-e (272-31-6) dissimilarityIndex=461579.
+   Found W-i-l-s_mi (274-9-8) dissimilarityIndex=466638.
+   Found t-o (278-13-7) dissimilarityIndex=486052.
+   Found t-o (271-23-1) dissimilarityIndex=486551.
+   Found t-o (274-27-7) dissimilarityIndex=514268.
+Seaching for d-e-l-i-v-e-r (274-27-6):
+   Found d-e-l-i-v-e-r (275-30-4) dissimilarityIndex=326400.
+   Found d-e-l-i-v-e-r-e-d (279-28-6) dissimilarityIndex=457970.
+   Found d-e-s-e-r-t (273-5-2) dissimilarityIndex=575676.
+   Found t-h-e-r-e (278-29-5) dissimilarityIndex=604910.
+   Found t-h-a-t (276-8-5) dissimilarityIndex=669786.
+   Found A-i-d (270-33-7) dissimilarityIndex=682188.
+   Found d-i-r-e-c-t-i-o-n-s (275-23-3) dissimilarityIndex=692902.
+   Found a-l-l-o-w-a-n-c-e (271-9-1) dissimilarityIndex=694022.
+   Found s-e-c-u-r-e (272-22-3) dissimilarityIndex=704864.
+Seaching for d-e-l-i-v-e-r-e-d (270-8-7):
+   Found d-o-w-n (270-16-5) dissimilarityIndex=662128.
+   Found d-e-d-u-c-t-e-d (278-35-3) dissimilarityIndex=682951.
+   Found a-c-c-o-u-n-t (271-25-7) dissimilarityIndex=702253.
+   Found O-r-d-e-r-s (275-1-2) dissimilarityIndex=722244.
+   Found a-r-r-i-v-e-d (276-21-5) dissimilarityIndex=798661.
+   Found a-r-r-i-v-e (277-6-4) dissimilarityIndex=824208.
+   Found d-i-r-e-c-t-i-o-n-s (275-23-3) dissimilarityIndex=842430.
+   Found h-e-r-d-s-m-e-n (274-19-3) dissimilarityIndex=874759.
+   Found r-e-c-e-i-v-e-d (272-7-2) dissimilarityIndex=882839.
+Seaching for d-e-s-e-r-t (273-5-2):
+   Found t-i-m-e-s_pt (278-8-4) dissimilarityIndex=399556.
+   Found B-r-e-a-k (271-35-4) dissimilarityIndex=402098.
+   Found t-i-m-e (275-30-8) dissimilarityIndex=404958.
+   Found t-h-o-u-s-a-n-d (270-6-5) dissimilarityIndex=438049.
+   Found m-o-s-t (275-29-4) dissimilarityIndex=443716.
+   Found H-o-u-s-e (271-15-8) dissimilarityIndex=476597.
+   Found b-e (275-8-5) dissimilarityIndex=485094.
+   Found d-i-r-e-c-t-i-o-n-s (275-23-3) dissimilarityIndex=493826.
+   Found a-n-d (273-25-7) dissimilarityIndex=505001.
+Seaching for d-i-r-e-c-t-i-o-n-s (275-23-3):
+   Found a-c-c-o-u-n-t (277-30-5) dissimilarityIndex=448280.
+   Found d-e-s-e-r-t (273-5-2) dissimilarityIndex=491168.
+   Found h-u-n-d-r-e-d (270-8-2) dissimilarityIndex=514384.
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=554219.
+   Found i-m-m-e-d-i-s_mi (271-11-9) dissimilarityIndex=586068.
+   Found m-a-r-c-h (273-26-1) dissimilarityIndex=593829.
+   Found a-n-d (275-1-3) dissimilarityIndex=603157.
+   Found s-e-v-e-r-a-l (276-6-4) dissimilarityIndex=611897.
+   Found d-e-d-u-c-t-i-o-n-s (279-8-7) dissimilarityIndex=615643.
+Seaching for d-i-s-p-a-t-c-h (274-14-8):
+   Found O-r-d-e-r-e-d-s_cm (273-22-4) dissimilarityIndex=430684.
+   Found a-c-c-o-u-n-t-s_cm (276-9-3) dissimilarityIndex=527779.
+   Found p-a-i-d-s_cm (278-33-6) dissimilarityIndex=538311.
+   Found N-u-r-s-e-s-s_cm (272-33-5) dissimilarityIndex=601456.
+   Found d-e-s-i-r-e-d (272-27-1) dissimilarityIndex=606217.
+   Found r-e-s-p-e-c-t-i-v-e (276-32-4) dissimilarityIndex=610731.
+   Found d-e-p-e-n-d-a-n-c-e (272-36-6) dissimilarityIndex=637727.
+   Found C-u-m-b-e-r-l-a-n-d-s_cm (277-6-7) dissimilarityIndex=651215.
+   Found p-a-y-m-e-n-t-s_pt (276-10-5) dissimilarityIndex=652343.
+Seaching for e-n-g-a-g-e-d (275-35-1):
+   Found a-c-c-o-r-d-i-n-g (274-3-6) dissimilarityIndex=575739.
+   Found C-o-m-p-a-n-y-s_cm (272-36-1) dissimilarityIndex=581303.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-3-10) dissimilarityIndex=588596.
+   Found C-o-m-p-a-n-y (276-29-7) dissimilarityIndex=614291.
+   Found e-x-p-e-c-t (271-11-6) dissimilarityIndex=624597.
+   Found C-a-p-t-a-i-n (277-13-8) dissimilarityIndex=625649.
+   Found a-p-p-e-a-r (270-21-2) dissimilarityIndex=654345.
+   Found C-o-o-p-e-r-s (274-22-3) dissimilarityIndex=654653.
+   Found w-h-a-t-s-o-e-v-e-r-s_cm (277-30-6) dissimilarityIndex=658232.
+Seaching for e-n-l-i-s-t-e-d (272-16-7):
+   Found a-n-d (270-19-2) dissimilarityIndex=799237.
+   Found i-n-t-e-n-d-e-d (273-13-3) dissimilarityIndex=859325.
+   Found m-u-s-t (274-21-6) dissimilarityIndex=903696.
+   Found a-n-d (273-13-11) dissimilarityIndex=904765.
+   Found o-r-d-e-r-s (274-14-5) dissimilarityIndex=910802.
+   Found a-n-d (277-24-3) dissimilarityIndex=927758.
+   Found d-e-s_mi (279-29-11) dissimilarityIndex=939756.
+   Found a-n-d (277-14-5) dissimilarityIndex=947330.
+   Found w-h-i-c-h (277-31-4) dissimilarityIndex=957262.
+Seaching for e-n-t-e-r (277-9-7):
+   Found n-u-m-b-e-r (270-27-7) dissimilarityIndex=436060.
+   Found u-n-d-e-r (276-23-5) dissimilarityIndex=539429.
+   Found t-h-e (275-33-6) dissimilarityIndex=543864.
+   Found a-n-d (276-26-3) dissimilarityIndex=572816.
+   Found e-i-t-h-e-r (274-30-6) dissimilarityIndex=631353.
+   Found a-n-d (275-11-3) dissimilarityIndex=645872.
+   Found w-a-n-t-e-d (276-5-6) dissimilarityIndex=648603.
+   Found s-a-l-t-e-d-s_pt (275-26-6) dissimilarityIndex=649232.
+   Found o-r-d-e-r-s (274-14-5) dissimilarityIndex=650561.
+Seaching for e-s-c-o-r-t (271-17-9):
+   Found e-x-e-c-u-t-e-s_pt (273-16-3) dissimilarityIndex=374886.
+   Found o-r-d-e-r-s-s_mi (276-27-3) dissimilarityIndex=492603.
+   Found m-u-s-t (274-7-5) dissimilarityIndex=520896.
+   Found A-r-m-s (271-19-4) dissimilarityIndex=545512.
+   Found a-n-d (271-2-3) dissimilarityIndex=554249.
+   Found a-n-d (270-19-2) dissimilarityIndex=565025.
+   Found s-o-m-e (278-26-6) dissimilarityIndex=605068.
+   Found u-n-d-e-r (275-17-2) dissimilarityIndex=619702.
+   Found d-i-r-e-c-t (272-24-4) dissimilarityIndex=622383.
+Seaching for f-u-r-n-i-s-h (277-22-7):
+   Found p-a-i-d (279-7-4) dissimilarityIndex=455144.
+   Found S-e-r-g-e-a-n-t (279-18-2) dissimilarityIndex=505820.
+   Found p-r-o-v-i-d-e (271-10-2) dissimilarityIndex=515246.
+   Found s-e-c-u-r-e-d-s_cm (276-34-5) dissimilarityIndex=526492.
+   Found p-u-r-c-h-a-s-e (275-27-5) dissimilarityIndex=539961.
+   Found j-o-u-r-n-e-y (278-20-6) dissimilarityIndex=540245.
+   Found p-a-r-t-i-c-u-l-a-r (275-8-2) dissimilarityIndex=551869.
+   Found p-a-i-d (278-28-4) dissimilarityIndex=573339.
+   Found d-r-a-w (275-33-2) dissimilarityIndex=579697.
+Seaching for g-r-e-a-t-l-y (271-30-5):
+   Found m-a-r-c-h-s_sq (277-29-4) dissimilarityIndex=415517.
+   Found q-u-a-n-t-i-t-y (272-26-2) dissimilarityIndex=451118.
+   Found p-u-r-p-o-s-e-s_pt (277-10-5) dissimilarityIndex=497230.
+   Found m-u-c-h (275-13-1) dissimilarityIndex=500343.
+   Found p-r-i-v-a-t-e (270-30-4) dissimilarityIndex=525406.
+   Found G-a-r-r-i-s-o-n-s_cm (278-23-3) dissimilarityIndex=547522.
+   Found i-n-c-l-o-s-i-n-g (272-8-2) dissimilarityIndex=554352.
+   Found p-a-r-t-i-c-u-l-a-r (277-8-5) dissimilarityIndex=558867.
+   Found S-e-r-g-e-a-n-t-s_cm (270-29-2) dissimilarityIndex=572097.
+Seaching for h-u-n-d-r-e-d (270-8-2):
+   Found d-i-r-e-c-t-i-o-n-s (275-23-3) dissimilarityIndex=514446.
+   Found h-e-r-e (276-7-4) dissimilarityIndex=554327.
+   Found S-t-o-c-k-a-d-e-s (273-12-3) dissimilarityIndex=559984.
+   Found C-o-u-r-t (271-15-7) dissimilarityIndex=568338.
+   Found r-e-c-e-i-v-e (274-25-7) dissimilarityIndex=591153.
+   Found d-o-w-n (270-5-1) dissimilarityIndex=611232.
+   Found a-r-r-i-v-e-d (276-25-2) dissimilarityIndex=612996.
+   Found t-i-m-e (273-16-1) dissimilarityIndex=621541.
+   Found a-n-d (275-1-3) dissimilarityIndex=633200.
+Seaching for i-m-m-e-d-i-a-t-e-l-y (270-18-3):
+   Found i-m-m-e-d-i-a-t-e-l-y (273-26-3) dissimilarityIndex=334385.
+   Found c-o-m-p-l-e-t-e-s_sq (278-25-1) dissimilarityIndex=489475.
+   Found O-r-d-e-r-l-y (277-11-1) dissimilarityIndex=617182.
+   Found d-i-s-t-i-n-g-u-i-s-h-e-s (277-7-9) dissimilarityIndex=633302.
+   Found p-a-i-n-s (275-8-3) dissimilarityIndex=644238.
+   Found d-i-s-p-a-t-c-h (277-25-4) dissimilarityIndex=658896.
+   Found c-l-o-t-h-i-n-g (273-31-5) dissimilarityIndex=673920.
+   Found i-m-a-g-i-n-e (275-28-5) dissimilarityIndex=677173.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-11-1) dissimilarityIndex=693392.
+Seaching for j-o-i-n (272-19-1):
+   Found j-o-i-n (276-25-8) dissimilarityIndex=202603.
+   Found f-o-r (279-18-7) dissimilarityIndex=321981.
+   Found p-a-i-r (279-20-6) dissimilarityIndex=356087.
+   Found Y-o-u-r (271-29-7) dissimilarityIndex=374701.
+   Found p-r-o-v-i-d-e (277-10-10) dissimilarityIndex=384268.
+   Found p-l-a-c-e (274-34-6) dissimilarityIndex=455137.
+   Found p-a-i-d (279-7-4) dissimilarityIndex=477430.
+   Found f-r-o-m (273-23-4) dissimilarityIndex=480484.
+   Found f-o-r (275-14-8) dissimilarityIndex=480486.
+Seaching for l-e-f-t (275-15-4):
+   Found y-o-u (278-25-3) dissimilarityIndex=374640.
+   Found b-y (279-10-2) dissimilarityIndex=450943.
+   Found G-i-v-e-n (276-11-1) dissimilarityIndex=461051.
+   Found G-u-a-r-d (270-31-1) dissimilarityIndex=469666.
+   Found I-f (274-15-3) dissimilarityIndex=472885.
+   Found i-f (270-20-5) dissimilarityIndex=478072.
+   Found f-o-r (272-28-2) dissimilarityIndex=499173.
+   Found G-o-v-e-r-n-o-r (279-10-4) dissimilarityIndex=508069.
+   Found Y-o-u (274-7-4) dissimilarityIndex=511247.
+Seaching for m-a-d-e (270-33-4):
+   Found m-a-d-e (274-4-4) dissimilarityIndex=143111.
+   Found m-a-d-e (278-30-2) dissimilarityIndex=238718.
+   Found m-a-k-e (273-4-1) dissimilarityIndex=315155.
+   Found m-o-s-t (275-29-4) dissimilarityIndex=334308.
+   Found u-n-d-e-r (276-23-5) dissimilarityIndex=339047.
+   Found m-u-c-h (273-15-9) dissimilarityIndex=407075.
+   Found m-a-r-k-s_cm (277-8-6) dissimilarityIndex=411595.
+   Found w-h-o (270-16-3) dissimilarityIndex=417682.
+   Found a-n-d (275-1-3) dissimilarityIndex=427622.
+Seaching for m-a-k-e (273-4-1):
+   Found m-a-k-e (279-9-4) dissimilarityIndex=196924.
+   Found m-a-d-e (270-33-4) dissimilarityIndex=315218.
+   Found s-u-c-h (276-8-7) dissimilarityIndex=364383.
+   Found m-u-c-h (273-15-9) dissimilarityIndex=386486.
+   Found o-r-d-e-r-e-d (279-29-9) dissimilarityIndex=465194.
+   Found a-n-d (275-1-3) dissimilarityIndex=467402.
+   Found e-x-e-c-u-t-e-s_pt (273-16-3) dissimilarityIndex=474415.
+   Found m-o-s-t (275-29-4) dissimilarityIndex=484059.
+   Found w-o-r-k-s_pt (274-25-3) dissimilarityIndex=514259.
+Seaching for m-a-r-c-h (273-26-1):
+   Found s-u-c-h (276-8-7) dissimilarityIndex=372819.
+   Found o-r-d-e-r-e-d (276-23-2) dissimilarityIndex=386479.
+   Found m-u-s-t (274-17-5) dissimilarityIndex=426018.
+   Found e-a-c-h (279-9-5) dissimilarityIndex=429848.
+   Found o-r-d-e-r-e-d (276-20-1) dissimilarityIndex=475292.
+   Found m-u-c-h (273-15-9) dissimilarityIndex=490237.
+   Found m-e-d-i-c-i-n-e-s-s_sq (279-4-6) dissimilarityIndex=542433.
+   Found e-x-e-c-u-t-e-s_pt (273-16-3) dissimilarityIndex=573817.
+   Found r-e-c-e-i-v-e-d (272-7-2) dissimilarityIndex=575406.
+Seaching for m-a-r-c-h-s_cm (272-17-5):
+   Found m-a-r-c-h (277-24-4) dissimilarityIndex=368729.
+   Found m-u-s-t (275-27-4) dissimilarityIndex=401283.
+   Found w-i-t-h (272-18-4) dissimilarityIndex=428430.
+   Found a-r-r-i-v-e-s_cm (274-12-7) dissimilarityIndex=442661.
+   Found w-i-t-h (276-28-4) dissimilarityIndex=452769.
+   Found w-i-t-h (275-15-5) dissimilarityIndex=496592.
+   Found R-e-c-e-p-t-a-c-l-e (273-14-3) dissimilarityIndex=525012.
+   Found O-r-d-e-r-e-d-s_cm (273-22-4) dissimilarityIndex=536136.
+   Found m-u-s-t (273-30-3) dissimilarityIndex=548753.
+Seaching for m-e-d-i-a-t-e-l-y (274-25-1):
+   Found s-h-o-u-l-d-s_cm (278-22-4) dissimilarityIndex=505155.
+   Found c-o-m-p-l-e-t-e-s_sq (278-25-1) dissimilarityIndex=517165.
+   Found c-o-m-p-l-e-t-e-l-y (273-25-3) dissimilarityIndex=563258.
+   Found p-a-r-t-i-c-u-l-a-r (277-8-5) dissimilarityIndex=565407.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=568196.
+   Found p-a-r-t-i-c-u-l-a-r (277-4-9) dissimilarityIndex=574934.
+   Found W-a-i-s-t-c-o-a-t-s-s_cm (279-20-4) dissimilarityIndex=583676.
+   Found r-e-c-r-u-i-t-i-n-g (271-14-3) dissimilarityIndex=584080.
+   Found w-h-i-c-h (276-25-1) dissimilarityIndex=602467.
+Seaching for m-e-n (270-28-2):
+   Found m-e-n (273-25-2) dissimilarityIndex=184359.
+   Found m-e-n (272-17-2) dissimilarityIndex=203842.
+   Found m-e-n (271-28-5) dissimilarityIndex=283736.
+   Found m-e-n (277-27-6) dissimilarityIndex=352780.
+   Found m-e-n (276-28-3) dissimilarityIndex=471236.
+   Found c-o-v-e-r (273-13-7) dissimilarityIndex=511475.
+   Found m-e-n (277-29-9) dissimilarityIndex=517786.
+   Found n-o-w (279-26-6) dissimilarityIndex=537825.
+   Found r-o-o-m (274-35-4) dissimilarityIndex=569011.
+Seaching for m-e-n-s_cm (270-30-5):
+   Found m-e-n-s_sq (271-24-2) dissimilarityIndex=351724.
+   Found m-e-n (277-23-1) dissimilarityIndex=511731.
+   Found e-x-p-e-n-c-e (272-33-3) dissimilarityIndex=565906.
+   Found m-e-n-s_cm (276-19-1) dissimilarityIndex=573083.
+   Found A-r-m-s (277-22-4) dissimilarityIndex=648427.
+   Found R-a-n-g-e-r-s-s_sq (270-7-8) dissimilarityIndex=711577.
+   Found p-a-y-m-e-n-t-s_qo (278-35-5) dissimilarityIndex=719032.
+   Found w-a-g-g-o-n-s (274-10-8) dissimilarityIndex=722427.
+   Found o-p-p-o-r-t-u-n-i-t-y (272-35-2) dissimilarityIndex=850686.
+Seaching for n-u-m-b-e-r (270-27-7):
+   Found e-n-t-e-r (277-9-7) dissimilarityIndex=429137.
+   Found s_mi (276-30-7) dissimilarityIndex=480092.
+   Found w-i-t-h-i-n (271-33-8) dissimilarityIndex=561518.
+   Found a-n-d (276-18-4) dissimilarityIndex=590841.
+   Found e-n-t-e-r (277-11-4) dissimilarityIndex=603076.
+   Found i-s (274-33-7) dissimilarityIndex=604384.
+   Found i-s (271-30-9) dissimilarityIndex=613100.
+   Found o-r (277-30-8) dissimilarityIndex=623108.
+   Found m-a-k-e (274-22-7) dissimilarityIndex=654827.
+Seaching for o-p-p-o-r-t-u-n-i-t-y (272-35-2):
+   Found q-u-a-n-t-i-t-y (279-22-7) dissimilarityIndex=503118.
+   Found a-p-p-o-i-n-t-e-d (277-33-6) dissimilarityIndex=545771.
+   Found C-o-o-p-e-r-s-s_cm (274-24-3) dissimilarityIndex=554511.
+   Found f-a-s-t-e-n-i-n-g (276-34-7) dissimilarityIndex=568177.
+   Found a-p-p-o-i-n-t-e-d-s_pt (278-31-6) dissimilarityIndex=572000.
+   Found d-e-p-e-n-d-a-n-c-e (272-36-6) dissimilarityIndex=612502.
+   Found p-r-e-s-e-n-t-s_sq (276-30-6) dissimilarityIndex=627748.
+   Found R-e-n-d-e-z-v-o-u-s (278-14-6) dissimilarityIndex=635686.
+   Found C-u-m-b-e-r-l-a-n-d-s_cm (273-32-5) dissimilarityIndex=643646.
+Seaching for o-r-d-e-r (271-17-7):
+   Found m-o-r-e (274-5-8) dissimilarityIndex=349077.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=428944.
+   Found s-u-c-h (274-13-8) dissimilarityIndex=442467.
+   Found r-e-c-e-i-v-e (271-19-1) dissimilarityIndex=450640.
+   Found k-n-o-w (276-5-3) dissimilarityIndex=451760.
+   Found o-r-d-e-r-e-d (276-23-2) dissimilarityIndex=459787.
+   Found a-r-r-i-v-e (277-6-4) dissimilarityIndex=470966.
+   Found a-r-r-i-v-e (277-26-8) dissimilarityIndex=479292.
+   Found a-r-r-i-v-e-s_cm (274-12-7) dissimilarityIndex=481538.
+Seaching for o-r-d-e-r-e-d (271-5-4):
+   Found s-a-v-e (278-20-3) dissimilarityIndex=428185.
+   Found o-r-d-e-r-e-d (278-5-4) dissimilarityIndex=432290.
+   Found s-o-m-e (278-26-6) dissimilarityIndex=542489.
+   Found m-o-u-n-t (270-30-8) dissimilarityIndex=572765.
+   Found a-n-d (275-10-2) dissimilarityIndex=627220.
+   Found M-e-n-s_pt (271-19-7) dissimilarityIndex=637129.
+   Found e-n-c-e (271-30-1) dissimilarityIndex=638478.
+   Found a-n-d (273-13-11) dissimilarityIndex=672656.
+   Found o-r-d-e-r-e-d-s_cm (271-27-4) dissimilarityIndex=684468.
+Seaching for p-a-y (271-32-3):
+   Found p-a-y (279-12-9) dissimilarityIndex=365032.
+   Found h-a-v-i-n-g (273-3-5) dissimilarityIndex=365566.
+   Found j-o-i-n (276-25-8) dissimilarityIndex=425300.
+   Found d-a-y-s_pt (272-9-3) dissimilarityIndex=426298.
+   Found C-o-n-w-a-y-s_pt (279-16-9) dissimilarityIndex=458153.
+   Found p-a-y (278-23-8) dissimilarityIndex=493679.
+   Found o-f (275-13-3) dissimilarityIndex=495736.
+   Found e-i-g-h-t (271-7-2) dissimilarityIndex=498094.
+   Found t-h-e-y (277-11-9) dissimilarityIndex=501185.
+Seaching for p-l-a-c-e (270-21-5):
+   Found d-r-a-w (275-33-2) dissimilarityIndex=315691.
+   Found Y-o-u-r (271-29-7) dissimilarityIndex=330896.
+   Found p-a-r-t-i-c-u-s_mi (270-3-8) dissimilarityIndex=350578.
+   Found p-r-o-v-i-d-e (277-10-10) dissimilarityIndex=354623.
+   Found p-a-i-d (278-28-4) dissimilarityIndex=367204.
+   Found p-a-i-r (279-20-6) dissimilarityIndex=369308.
+   Found p-l-a-c-e (274-34-6) dissimilarityIndex=376582.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=385541.
+   Found p-l-a-c-e (271-28-2) dissimilarityIndex=388285.
+Seaching for p-o-u-n-d-s (274-26-6):
+   Found p-r-o-v-i-d-e (277-27-4) dissimilarityIndex=350508.
+   Found p-r-e-s-e-n-t-s_cm (270-26-5) dissimilarityIndex=363754.
+   Found a-c-c-o-r-d-i-n-g (274-3-6) dissimilarityIndex=403283.
+   Found p-a-i-d (279-5-5) dissimilarityIndex=409800.
+   Found p-r-o-v-i-d-e (276-4-1) dissimilarityIndex=417213.
+   Found p-e-r (279-6-5) dissimilarityIndex=421341.
+   Found p-a-y-m-e-n-t-s_pt (276-10-5) dissimilarityIndex=428717.
+   Found p-r-o-v-i-d-e (271-10-2) dissimilarityIndex=431235.
+   Found p-a-c-k-i-n-g (274-23-2) dissimilarityIndex=438442.
+Seaching for p-r-o-v-i-d-e (271-10-2):
+   Found p-r-o-v-i-d-e (277-27-4) dissimilarityIndex=252095.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=305272.
+   Found p-a-r-t-i-c-u-l-a-r (277-8-5) dissimilarityIndex=327635.
+   Found p-u-r-c-h-a-s-e (275-27-5) dissimilarityIndex=338886.
+   Found p-r-o-v-i-d-e-d (273-28-2) dissimilarityIndex=340425.
+   Found p-r-e-s-e-n-t-s_cm (270-26-5) dissimilarityIndex=347298.
+   Found p-a-i-d (279-5-5) dissimilarityIndex=349312.
+   Found p-a-y-m-e-n-t-s_pt (276-10-5) dissimilarityIndex=350910.
+   Found p-a-r-t-i-c-u-l-a-r (277-4-9) dissimilarityIndex=368632.
+Seaching for p-r-o-v-i-s-i-o-n-s-s_cm (272-22-5):
+   Found p-r-o-v-i-d-e (276-4-1) dissimilarityIndex=290489.
+   Found p-r-o-v-i-d-e (277-27-4) dissimilarityIndex=311505.
+   Found p-r-o-v-i-s-i-o-n-s (273-4-2) dissimilarityIndex=324972.
+   Found o-r-d-e-r-e-d-s_cm (277-21-4) dissimilarityIndex=435006.
+   Found C-o-m-p-a-n-i-e-s (270-7-6) dissimilarityIndex=453178.
+   Found p-a-r-t-i-c-u-l-a-r (277-8-5) dissimilarityIndex=460272.
+   Found p-r-i-v-a-t-e (270-30-4) dissimilarityIndex=469812.
+   Found p-a-r-t-i-c-u-l-a-r (275-8-2) dissimilarityIndex=494618.
+   Found d-e-p-e-n-d-a-n-c-e (272-36-6) dissimilarityIndex=499851.
+Seaching for p-u-r-c-h-a-s-e (275-27-5):
+   Found p-a-i-r (279-20-6) dissimilarityIndex=282146.
+   Found p-r-o-v-i-d-e (277-27-4) dissimilarityIndex=320963.
+   Found p-r-o-v-i-d-e (271-10-2) dissimilarityIndex=342133.
+   Found p-u-r-c-h-a-s-i-n-g (279-4-5) dissimilarityIndex=369806.
+   Found p-a-i-n-s (275-8-3) dissimilarityIndex=381191.
+   Found p-a-r-t-i-c-u-l-a-r (277-8-5) dissimilarityIndex=388833.
+   Found j-o-i-n (276-25-8) dissimilarityIndex=396416.
+   Found C-o-m-p-a-n-y (271-6-3) dissimilarityIndex=406393.
+   Found p-r-e-s-e-n-t-s_cm (270-26-5) dissimilarityIndex=415568.
+Seaching for q-u-a-n-t-i-t-y (272-26-2):
+   Found q-u-a-n-t-i-t-y (275-27-8) dissimilarityIndex=404780.
+   Found g-r-e-a-t-l-y (271-30-5) dissimilarityIndex=452413.
+   Found C-o-u-n-t-r-y-s_cm (274-16-4) dissimilarityIndex=545872.
+   Found i-m-m-e-d-i-a-t-e-l-y (273-5-7) dissimilarityIndex=548792.
+   Found O-r-d-e-r-l-y (277-11-1) dissimilarityIndex=564134.
+   Found C-o-m-m-i-s_s-s-i-o-n-s_pt (271-36-3) dissimilarityIndex=574514.
+   Found p-e-r-e-m-p-t-o-r-i-l-y-s_cm (271-27-5) dissimilarityIndex=601909.
+   Found t-r-i-d-g-e-s-s_pt (277-28-1) dissimilarityIndex=618975.
+   Found p-r-i-v-a-t-e (270-30-4) dissimilarityIndex=624641.
+Seaching for r-e-c-e-i-p-t (279-18-6):
+   Found n-e-c-e-s_s-s-a-r-i-e-s (274-11-5) dissimilarityIndex=429525.
+   Found p-i-l-l-a-g-e (275-12-3) dissimilarityIndex=465286.
+   Found a-c-c-o-r-d-i-n-g (274-3-6) dissimilarityIndex=476176.
+   Found C-o-m-m-i-s_s-s-i-o-n-s_pt (271-36-3) dissimilarityIndex=488965.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-3-10) dissimilarityIndex=491634.
+   Found R-a-n-g-e-r-s (274-31-2) dissimilarityIndex=493358.
+   Found n-e-c-e-s_s-s-a-r-y (275-23-8) dissimilarityIndex=495680.
+   Found n-e-c-e-s_s-s-a-r-y-s_cm (274-6-4) dissimilarityIndex=497730.
+   Found h-a-p-p-e-n (279-11-6) dissimilarityIndex=540319.
+Seaching for r-e-c-e-i-v-e (270-25-7):
+   Found r-e-c-e-i-v-e (274-25-7) dissimilarityIndex=242972.
+   Found a-r-r-i-v-e (277-26-8) dissimilarityIndex=277449.
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=304387.
+   Found r-e-c-e-i-v-e-s_pt (277-5-4) dissimilarityIndex=340417.
+   Found o-r-d-e-r (271-17-7) dissimilarityIndex=427853.
+   Found a-c-c-o-u-n-t (271-13-5) dissimilarityIndex=428318.
+   Found r-e-c-e-i-v-e (277-5-8) dissimilarityIndex=441239.
+   Found a-r-r-i-v-e (276-29-2) dissimilarityIndex=451908.
+   Found r-a-i-s-e (278-8-1) dissimilarityIndex=469123.
+Seaching for r-e-c-e-i-v-e-d (272-7-2):
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=262989.
+   Found r-e-c-e-i-v-e-d (278-34-4) dissimilarityIndex=421925.
+   Found c-o-u-n-t (278-33-1) dissimilarityIndex=493439.
+   Found r-e-c-e-i-v-e (274-25-7) dissimilarityIndex=532016.
+   Found m-a-r-c-h (273-26-1) dissimilarityIndex=566582.
+   Found t-h-o-u-s-a-n-d (270-6-5) dissimilarityIndex=580168.
+   Found r-e-m-a-i-n (274-19-5) dissimilarityIndex=584230.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=598982.
+   Found r-e-m-a-i-n-s (272-11-8) dissimilarityIndex=599576.
+Seaching for r-e-m-a-i-n (274-19-5):
+   Found r-e-m-a-i-n-s (275-27-2) dissimilarityIndex=305170.
+   Found r-e-c-e-i-v-e (274-25-7) dissimilarityIndex=458230.
+   Found a-r-r-i-v-e (273-23-3) dissimilarityIndex=493954.
+   Found u-n-d-e-r (276-23-5) dissimilarityIndex=495495.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=502019.
+   Found u-n-d-e-r (276-26-5) dissimilarityIndex=536955.
+   Found u-n-d-e-r (276-21-7) dissimilarityIndex=542440.
+   Found r-e-c-e-i-v-e-s (274-13-7) dissimilarityIndex=543914.
+   Found C-u-m-b-e-r-l-a-n-d-s_cm (277-6-7) dissimilarityIndex=551658.
+Seaching for r-e-p-a-i-r (271-5-6):
+   Found s-e-e (275-26-1) dissimilarityIndex=302750.
+   Found u-p-s_mi (276-8-11) dissimilarityIndex=396243.
+   Found O-f-f-i-c-e-r (279-4-1) dissimilarityIndex=418299.
+   Found u-p (273-30-7) dissimilarityIndex=492980.
+   Found d-e-p-e-n-d-a-n-c-e (272-36-6) dissimilarityIndex=499901.
+   Found s-t-o-p-p-e-d (279-6-9) dissimilarityIndex=504992.
+   Found p-l-u-n-d-e-r (277-30-7) dissimilarityIndex=535691.
+   Found p-l-a-c-e (274-34-6) dissimilarityIndex=546612.
+   Found p-a-i-r (273-34-6) dissimilarityIndex=553334.
+Seaching for s-e-n-d (270-4-8):
+   Found s-e-n-d (275-25-2) dissimilarityIndex=292273.
+   Found n-o-t (275-11-8) dissimilarityIndex=349772.
+   Found a-n-d (275-6-1) dissimilarityIndex=378782.
+   Found o-r-d-e-r-e-d (272-11-1) dissimilarityIndex=527358.
+   Found s-e-n-t (274-34-3) dissimilarityIndex=538945.
+   Found i-s (276-19-10) dissimilarityIndex=547682.
+   Found m-u-s-t (274-18-8) dissimilarityIndex=592085.
+   Found a-n-d (273-25-7) dissimilarityIndex=598625.
+   Found n-o-t (272-34-6) dissimilarityIndex=614539.
+Seaching for s_GW (270-12-3):
+   Found s_GW (279-27-1) dissimilarityIndex=576443.
+   Found b-e-t-t-e-r (276-35-5) dissimilarityIndex=666809.
+   Found i-s_s-s-u-e (277-11-10) dissimilarityIndex=670166.
+   Found t-o (277-26-1) dissimilarityIndex=692705.
+   Found e-i-g-h-t (279-19-8) dissimilarityIndex=701881.
+   Found s_GW (273-18-4) dissimilarityIndex=715549.
+   Found l-e-f-t (276-31-4) dissimilarityIndex=727216.
+   Found W-a-g-g-e-n-e-r (276-30-3) dissimilarityIndex=751750.
+   Found t-h-e (272-35-1) dissimilarityIndex=786927.
+Seaching for s_et-c-s_pt (271-10-4):
+   Found t-o (274-29-4) dissimilarityIndex=501628.
+   Found t-h-e-i-r (277-4-11) dissimilarityIndex=571763.
+   Found t-h-a-n (272-27-6) dissimilarityIndex=577993.
+   Found h-i-m (276-20-5) dissimilarityIndex=584831.
+   Found b-e (274-16-6) dissimilarityIndex=623725.
+   Found h-i-m (274-15-1) dissimilarityIndex=624759.
+   Found h-a-v-e (278-34-3) dissimilarityIndex=630223.
+   Found h-e-r-e (276-21-6) dissimilarityIndex=632762.
+   Found t-h-e-m-s_cm (279-7-12) dissimilarityIndex=633668.
+Seaching for t-e-r-m-s (271-10-8):
+   Found t-e-r-m-s (275-29-6) dissimilarityIndex=557512.
+   Found A-r-m-s-s_cm (270-5-8) dissimilarityIndex=568555.
+   Found a-n-d (272-14-4) dissimilarityIndex=571755.
+   Found a-n-d (274-23-5) dissimilarityIndex=620709.
+   Found C-r-i-m-e (271-34-10) dissimilarityIndex=632481.
+   Found a-n-d (270-19-2) dissimilarityIndex=636325.
+   Found t-o (273-15-3) dissimilarityIndex=667062.
+   Found t-o (275-30-3) dissimilarityIndex=674555.
+   Found a-n-d (273-13-11) dissimilarityIndex=702837.
+Seaching for t-h-i-n-g-s (274-14-1):
+   Found r-e-c-e-i-p-t (279-18-6) dissimilarityIndex=547109.
+   Found C-o-m-p-a-n-y (271-6-3) dissimilarityIndex=548577.
+   Found S-u-r-g-e-o-n (279-5-8) dissimilarityIndex=550421.
+   Found D-a-y (278-6-6) dissimilarityIndex=554787.
+   Found R-e-n-d-e-z-v-o-u-s (277-15-5) dissimilarityIndex=555693.
+   Found t-h-a-t (275-6-2) dissimilarityIndex=567906.
+   Found h-i-m-s_cm (276-23-6) dissimilarityIndex=571769.
+   Found s-t-o-p-p-a-g-e-s (272-31-4) dissimilarityIndex=590208.
+   Found C-a-p-t-a-i-n (274-28-1) dissimilarityIndex=604474.
+Seaching for t-w-e-l-v-e (270-8-1):
+   Found d-e-r-e-d (272-18-1) dissimilarityIndex=519727.
+   Found D-i-c-k (272-29-8) dissimilarityIndex=617719.
+   Found b-u-t (278-21-5) dissimilarityIndex=619366.
+   Found r-a-i-s-e (278-8-1) dissimilarityIndex=634280.
+   Found t-r-i-e-d (270-22-7) dissimilarityIndex=636454.
+   Found t-h-e-m (275-26-2) dissimilarityIndex=644809.
+   Found h-u-n-d-r-e-d (270-8-2) dissimilarityIndex=671265.
+   Found d-o-w-n (270-5-1) dissimilarityIndex=681025.
+   Found r-e-c-e-i-v-e (270-25-7) dissimilarityIndex=682139.
+Seaching for u-n-f-i-t (272-12-1):
+   Found C-o-m-p-a-n-y (271-23-6) dissimilarityIndex=553882.
+   Found u-n-l-e-s_s-s (270-3-6) dissimilarityIndex=600905.
+   Found c-o-m-p-l-i-e-d (271-25-2) dissimilarityIndex=612077.
+   Found c-o-m-m-i-s_s-s-i-o-n-e-d (279-3-10) dissimilarityIndex=616673.
+   Found r-e-c-e-i-v-e-d (278-34-4) dissimilarityIndex=640975.
+   Found a-t-e-l-y (271-12-1) dissimilarityIndex=710476.
+   Found n-e-c-e-s_s-s-a-r-i-e-s (274-11-5) dissimilarityIndex=710947.
+   Found C-a-p-t-a-i-n (277-13-8) dissimilarityIndex=721975.
+   Found n-e-c-e-s_s-s-a-r-i-e-s (276-4-4) dissimilarityIndex=731471.
+Seaching for u-t-m-o-s-t (277-25-3):
+   Found c-o-n-t-i-n-u-e-d (279-12-6) dissimilarityIndex=595365.
+   Found o-r-d-e-r-e-d (279-9-2) dissimilarityIndex=619575.
+   Found r-e-l-i-e-v-e-d (270-31-8) dissimilarityIndex=664407.
+   Found o-r-d-e-r-s (274-14-5) dissimilarityIndex=679064.
+   Found A-r-m-s (277-22-4) dissimilarityIndex=742804.
+   Found d-e-l-i-v-e-r-e-d (279-28-6) dissimilarityIndex=768778.
+   Found r-e-c-e-i-v-e-d (272-7-2) dissimilarityIndex=787342.
+   Found i-m-m-e-d-i-s_mi (271-11-9) dissimilarityIndex=862810.
+   Found w-h-o (270-16-3) dissimilarityIndex=874939.
+Seaching for w-a-g-g-o-n-s (274-10-8):
+   Found W-a-g-g-o-n-s (273-23-2) dissimilarityIndex=523183.
+   Found w-a-g-s_mi (273-29-9) dissimilarityIndex=564958.
+   Found p-u-r-p-o-s-e (273-33-6) dissimilarityIndex=658560.
+   Found m-e-n-s_cm (270-30-5) dissimilarityIndex=726385.
+   Found e-x-p-e-n-c-e (272-33-3) dissimilarityIndex=736105.
+   Found r-e-p-a-i-r (271-5-6) dissimilarityIndex=760632.
+   Found d-a-y (277-12-1) dissimilarityIndex=797385.
+   Found a-p-p-e-a-r (270-21-2) dissimilarityIndex=803444.
+   Found t-o (277-26-1) dissimilarityIndex=813854.
+Seaching for w-a-g-g-o-n-s-s_cm (273-28-1):
+   Found u-p-o-n (276-20-4) dissimilarityIndex=614597.
+   Found p-r-o-p-e-r-l-y (275-26-5) dissimilarityIndex=625807.
+   Found R-e-p-a-i-r (271-23-2) dissimilarityIndex=628875.
+   Found e-x-p-e-c-t (271-11-6) dissimilarityIndex=636388.
+   Found v-i-g-o-u-r-s_pt (273-17-7) dissimilarityIndex=658393.
+   Found e-x-p-e-c-t (271-24-5) dissimilarityIndex=671214.
+   Found r-e-g-u-l-a-r-l-y (278-31-5) dissimilarityIndex=672115.
+   Found d-a-y (276-19-6) dissimilarityIndex=682786.
+   Found r-e-s-p-e-c-t-i-v-e (276-32-4) dissimilarityIndex=684824.
+Seaching for w-a-n-t-e-d (276-5-6):
+   Found e-n-t-e-r (277-9-7) dissimilarityIndex=645978.
+   Found m-a-d-e (276-6-6) dissimilarityIndex=647373.
+   Found h-u-n-d-r-e-d (270-8-2) dissimilarityIndex=699158.
+   Found r-e-c-e-i-v-e (276-8-10) dissimilarityIndex=712466.
+   Found o-r-d-e-r-e-d (272-11-1) dissimilarityIndex=802805.
+   Found a-n-d (277-28-9) dissimilarityIndex=812101.
+   Found a-n-d (278-33-7) dissimilarityIndex=819863.
+   Found i-n (276-9-8) dissimilarityIndex=821065.
+   Found a-n-d (276-22-3) dissimilarityIndex=825538.
+Seaching for w-a-n-t-i-n-g (273-31-6):
+   Found t-e-a-c-h-i-n-g (279-7-11) dissimilarityIndex=441821.
+   Found o-n-l-y (273-13-2) dissimilarityIndex=449115.
+   Found i-r-r-e-g-u-s_mi (275-10-8) dissimilarityIndex=503291.
+   Found C-o-m-p-a-n-y (271-7-7) dissimilarityIndex=511842.
+   Found C-o-m-p-a-n-y-s_sq (274-12-2) dissimilarityIndex=522591.
+   Found C-o-n-w-a-y-s_pt (279-16-9) dissimilarityIndex=523855.
+   Found w-i-t-h (277-25-1) dissimilarityIndex=526430.
+   Found s-u-c-h (275-27-6) dissimilarityIndex=536651.
+   Found C-a-p-t-a-i-n (278-3-3) dissimilarityIndex=550398.
+--End
