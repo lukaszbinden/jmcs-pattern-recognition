@@ -1,6 +1,6 @@
 # Molecules: Classify molecules wrt AIDS
 
-##Task ##
+## Task ##
 Classify the molecules of the validation set using KNN. Distance: approximate GED.
 
 ## Data ##
