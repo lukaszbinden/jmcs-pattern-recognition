@@ -36,7 +36,7 @@ public class Main {
 			String fileId = entry.getKey();
 			String classId = entry.getValue();
 			Molecule validG = create(fileId, classId);
-			Map<Integer, List<Molecule>> distances = new TreeMap<>();
+			Map<Integer, List<Molecule>> distances = new TreeMap<>(); // for sorting according to key
 			
 			trainSet.stream()
 				.map(e -> create(e))

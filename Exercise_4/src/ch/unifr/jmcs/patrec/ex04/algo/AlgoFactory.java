@@ -5,7 +5,7 @@ public class AlgoFactory {
 	private AlgoFactory() {}
 	
 	public static IBPMatcher bpMatcher() {
-		return null; // TODO: impl...
+		return new BPMatcherImpl();
 	}
 	
 	public static IKnn knn(int k) {
