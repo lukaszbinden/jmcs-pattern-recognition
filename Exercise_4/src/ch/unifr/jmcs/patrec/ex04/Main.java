@@ -77,7 +77,7 @@ public class Main {
 		return null;
 	}
 
-	private static DataSet load(String fileName) throws IOException {
+	public static DataSet load(String fileName) throws IOException {
 		DataSet dataSet = new DataSet();
 		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
 			stream.map(line -> line.split(" ")).forEach(line -> dataSet.add(line[0], line[1]));
