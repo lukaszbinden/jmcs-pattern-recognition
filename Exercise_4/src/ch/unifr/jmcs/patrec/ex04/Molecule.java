@@ -37,8 +37,7 @@ public class Molecule {
 	}
 	
 	public int getNumNodes() {
-		// TODO: 
-		return -1;
+		return getNodes().length;
 	}
 	
 	public Node[] getNodes() {
