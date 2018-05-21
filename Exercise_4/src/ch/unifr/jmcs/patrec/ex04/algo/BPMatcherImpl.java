@@ -22,12 +22,11 @@ class BPMatcherImpl implements IBPMatcher {
 		int[][] optimalAssignment = hungarian.execute(costMatrix);
 		
 		// 3. complete the edit path and compute d(g1,g2)
-		
-		
+		// TODO:
+		int distance = -1;
 		
 		// 4. return d(g1,g2)
-		
-		return null;
+		return new BPResult(g1, g2, distance);
 	}
 
 	private double[][] buildCostMatrix(Molecule g1, Molecule g2) {

@@ -16,6 +16,12 @@ public interface IBPMatcher {
 		private Molecule g1;
 		private Molecule g2;
 		
+		public BPResult(Molecule g1, Molecule g2, int distance) {
+			this.g1 = g1;
+			this.g2 = g2;
+			this.distance = distance;
+		}
+		
 		public int distance() {
 			return distance;
 		}
