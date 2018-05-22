@@ -1,0 +1,43 @@
+> library(caret)
+> 
+> setwd("C:/Users/lukaszbinden/git/jmcs-pattern-recognition/Exercise_4")
+> 
+> data = read.csv("predictions.csv", header = TRUE)
+> predictions = data[2-3]
+> result = table(predictions, dnn=c("Prediction", "Ground truth"))
+> result
+          Ground truth
+Prediction   a   i
+         a  49   0
+         i   1 200
+> confM = confusionMatrix(t, dnn=c("Prediction", "Ground truth"))
+> confM
+Confusion Matrix and Statistics
+
+                classIdActual
+classIdPredicted   a   i
+               a  49   0
+               i   1 200
+                                          
+               Accuracy : 0.996           
+                 95% CI : (0.9779, 0.9999)
+    No Information Rate : 0.8             
+    P-Value [Acc > NIR] : <2e-16          
+                                          
+                  Kappa : 0.9874          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.980           
+            Specificity : 1.000           
+         Pos Pred Value : 1.000           
+         Neg Pred Value : 0.995           
+             Prevalence : 0.200           
+         Detection Rate : 0.196           
+   Detection Prevalence : 0.196           
+      Balanced Accuracy : 0.990           
+                                          
+       'Positive' Class : a               
+                                          
+> 
+> # plot(confM)
+> fourfoldplot(confM$table)
