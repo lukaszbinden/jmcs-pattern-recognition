@@ -24,6 +24,8 @@ class KnnImpl implements IKnn {
 	public String classify(Molecule molecule, Map<Integer, List<Molecule>> distances) {
 		List<Molecule> kNN = kNearest(distances, k).collect(Collectors.toList());
 		
+		//System.out.println("kNN for " + molecule.getFileid() + ": " + kNN.stream().map(m -> m.getFileid()).collect(Collectors.joining(",")));
+		
 		int numA = 0, numI = 0;
 		for (Molecule m : kNN) {
 			if (m.getClassId().equalsIgnoreCase(ACTIVE)) {
@@ -34,6 +36,7 @@ class KnnImpl implements IKnn {
 				throw new IllegalArgumentException(m.toString());
 			}
 		}
+		// System.out.println("kNN = " + k + ": active=" + numA + ", inactive=" + numI);
 		
 		if (numA == numI) {
 			System.out.println("TIE occured: [molecule=" + molecule + ", k=" + k + ", kNN=" + kNN + "]");
@@ -47,6 +50,9 @@ class KnnImpl implements IKnn {
 	}
 
 	private Stream<Molecule> kNearest(Map<Integer, List<Molecule>> distances, int kNearest) {
+//		distances.entrySet().stream().limit(k).forEach(entry -> {
+//			System.out.println("distance " + entry.getKey() + " has " + entry.getValue().size() + " molecule(s).");
+//		}); 
 		return distances.values().stream().flatMap(ms -> ms.stream()).limit(kNearest);
 	}
 

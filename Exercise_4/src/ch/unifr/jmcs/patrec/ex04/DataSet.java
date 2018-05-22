@@ -29,4 +29,8 @@ public class DataSet implements Iterable<Entry<String, String>> {
 		return entries.entrySet().stream();
 	}
 	
+	public int size() {
+		return entries.size();
+	}
+	
 }

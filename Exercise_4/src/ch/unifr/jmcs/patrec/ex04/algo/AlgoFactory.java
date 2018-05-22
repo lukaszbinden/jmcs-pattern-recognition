@@ -7,8 +7,8 @@ public class AlgoFactory {
 
 	private AlgoFactory() {}
 	
-	public static IBPMatcher bpMatcher() {
-		return new BPMatcherImpl(hungarian(), dirac());
+	public static IBPMatcher bpMatcher(double c_n, double c_e) {
+		return new BPMatcherImpl(hungarian(), dirac(c_n, c_e));
 	}
 	
 	public static IKnn knn(int k) {
@@ -19,11 +19,8 @@ public class AlgoFactory {
 		return new HungarianAlgorithm();
 	}
 	
-	public static ICostFunction dirac() {
-		// TODO: optimize...
-		double c_nInit = 3;
-		double c_eInit = 2;
-		return new DiracCostFunctionImpl(c_nInit, c_eInit);
+	public static ICostFunction dirac(double c_n, double c_e) {
+		return new DiracCostFunctionImpl(c_n, c_e);
 	}
 	
 }

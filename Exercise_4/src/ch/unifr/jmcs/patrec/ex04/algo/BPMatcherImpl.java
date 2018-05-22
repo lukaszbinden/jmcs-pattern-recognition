@@ -14,16 +14,20 @@ class BPMatcherImpl implements IBPMatcher {
 	
 	@Override
 	public BPResult execute(Molecule g1, Molecule g2) {
-
 		// 1. build the cost matrix (sl. 10-18) for g1 and some graph g2
 		double[][] costMatrix = buildCostMatrix(g1, g2);
 		
-		// 2. find optimal assignment using Hungarian algorithm. get back the optimal assignment between g1 and g2
+		// 2. find optimal assignment using Hungarian algorithm. get back 
+		//    the optimal assignment between g1 and g2
 		int[][] optimalAssignment = hungarian.execute(costMatrix);
 		
 		// 3. complete the edit path and compute d(g1,g2)
-		// TODO:
-		int distance = -1;
+		int distance = 0;
+		for (int i=0; i < optimalAssignment.length; i++) {
+			int row = optimalAssignment[i][0];
+			int column = optimalAssignment[i][1];
+			distance += costMatrix[row][column];
+		}
 		
 		// 4. return d(g1,g2)
 		return new BPResult(g1, g2, distance);

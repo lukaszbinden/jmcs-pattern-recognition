@@ -1,80 +1,38 @@
 package ch.unifr.jmcs.patrec.ex04;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.TreeMap;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
-import ch.unifr.jmcs.patrec.ex04.algo.AlgoFactory;
-import ch.unifr.jmcs.patrec.ex04.algo.IBPMatcher;
-import ch.unifr.jmcs.patrec.ex04.algo.IKnn;
-import net.sourceforge.gxl.GXLDocument;
 
 public class Main {
 
 	public static void main(String[] args) throws Exception {
 		System.out.println("main -->");
+		long start = System.currentTimeMillis();
 		
-		int k = getK(args);
+		Integer k = getK(args);
 		
 		DataSet trainSet = load("data/train.txt");
 		DataSet validSet = load("data/valid.txt");
 		
-		IBPMatcher bpMatcher = AlgoFactory.bpMatcher();
-		IKnn knn = AlgoFactory.knn(k);
-		List<String> predictions = new ArrayList<>();
-		
-		for (Entry<String, String> entry : validSet) {
-			String fileId = entry.getKey();
-			String classId = entry.getValue();
-			Molecule validG = create(fileId, classId);
-			Map<Integer, List<Molecule>> distances = new TreeMap<>(); // for sorting according to key
-			
-			trainSet.stream()
-				.map(e -> create(e))
-				.map(trainG -> bpMatcher.execute(validG, trainG))
-				.forEach(result ->   
-					distances.compute(result.distance(), (key, list) -> {
-						if (list == null) {
-							list = new ArrayList<>(); 
-						}
-						list.add(result.g2());
-						return list;
-					})
-				);
-				
-			String classIdPredicted = knn.classify(validG, distances);
-			
-			predictions.add(fileId + "," + classIdPredicted + "," + classId);
+		int[] kValues;
+		if (k == null) {
+			kValues = new int[] {1,3,5,7,9,11};
+		} else {
+			kValues = new int[] {k};
 		}
 		
-		Path file = Paths.get("predictions-" + LocalTime.now().toString().replaceAll(":", "") + ".csv");
-		Files.write(file, predictions, Charset.forName("UTF-8"));
+		double c_n = 3;
+		double c_e = 2;
 		
-		System.out.println("main <--");
-	}
-
-	private static Molecule create(Entry<String, String> entry) {
-		return create(entry.getKey(), entry.getValue());
-	}
-	
-	private static Molecule create(String fileId, String classId) {
-		try {
-			GXLDocument gxl = new GXLDocument(Paths.get("data/gxl/" + fileId + ".gxl").toFile());
-			return new Molecule(gxl, fileId, classId);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(-1);
-		}
-		return null;
+		IntStream.of(kValues).forEach(kV -> {
+			double predictionAccuracy = ApproximateGEDExecutor.execute(kV, validSet, trainSet, c_n, c_e);
+			System.out.println("Prediction accuracy for [k=" + kV + ", c_n=" + c_n + ", c_e=" + c_e + "]: " + predictionAccuracy + "%");
+		});
+		
+		System.out.println("main <-- [" + ((double) (System.currentTimeMillis() - start) / 1000) + "ms]");
 	}
 
 	public static DataSet load(String fileName) throws IOException {
@@ -85,14 +43,17 @@ public class Main {
 		return dataSet;
 	}
 	
-	private static int getK(String[] args) {
-		int k = 1; // default
+	private static Integer getK(String[] args) {
+		Integer k = null; // default
 		if (args.length == 1) {
 			try {
 				k = Integer.parseInt(args[0]);
-			} catch (Exception e) {
-				// stick to default
+			} catch (NumberFormatException e) {
+				throw e;
 			}
+			System.out.println("override default k with k=" + k);
+		} else {
+			//System.out.println("k argument not provided, use default k=1");
 		}
 		return k;
 	}

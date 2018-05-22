@@ -51,7 +51,7 @@ public class HungarianAlgorithm implements IHungarian {
 
 	@Override
 	public int[][] execute(double[][] costMatrix) {
-		return HungarianAlgorithm.hgAlgorithm(costMatrix, "max");
+		return HungarianAlgorithm.hgAlgorithm(costMatrix, "min");
 	}
 	
     //********************************//
