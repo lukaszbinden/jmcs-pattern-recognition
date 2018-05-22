@@ -50,9 +50,12 @@ class KnnImpl implements IKnn {
 	}
 
 	private Stream<Molecule> kNearest(Map<Integer, List<Molecule>> distances, int kNearest) {
+//		AtomicReference<String> refLog = new AtomicReference<>("");
 //		distances.entrySet().stream().limit(k).forEach(entry -> {
-//			System.out.println("distance " + entry.getKey() + " has " + entry.getValue().size() + " molecule(s).");
+//			refLog.set(refLog.get() + "distance " + entry.getKey() + " has " + entry.getValue().size() + " molecule(s).\n");
 //		}); 
+//		System.out.println("k=" + k + ":\n" + refLog.get());
+		
 		return distances.values().stream().flatMap(ms -> ms.stream()).limit(kNearest);
 	}
 

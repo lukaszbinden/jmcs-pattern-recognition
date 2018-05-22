@@ -5,7 +5,6 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -15,11 +14,18 @@ import java.util.TreeMap;
 import ch.unifr.jmcs.patrec.ex04.algo.AlgoFactory;
 import ch.unifr.jmcs.patrec.ex04.algo.IBPMatcher;
 import ch.unifr.jmcs.patrec.ex04.algo.IKnn;
-import net.sourceforge.gxl.GXLDocument;
 
 public class ApproximateGEDExecutor {
 
-	public static double execute(int k, DataSet validSet, DataSet trainSet, double c_n, double c_e) {
+	private MoleculeDataSet validSet;
+	private MoleculeDataSet trainSet;
+
+	public ApproximateGEDExecutor(MoleculeDataSet validSet, MoleculeDataSet trainSet) {
+		this.validSet = validSet;
+		this.trainSet = trainSet;
+	}
+	
+	public double execute(int k, double c_n, double c_e) {
 		IBPMatcher bpMatcher = AlgoFactory.bpMatcher(c_n, c_e);
 		IKnn knn = AlgoFactory.knn(k);
 		List<String> predictions = new ArrayList<>();
@@ -29,11 +35,11 @@ public class ApproximateGEDExecutor {
 		for (Entry<String, String> entry : validSet) {
 			String fileId = entry.getKey();
 			String classId = entry.getValue();
-			Molecule validG = create(fileId, classId);
+			Molecule validG = validSet.get(fileId);
 			Map<Integer, List<Molecule>> distances = new TreeMap<>(); // for sorting according to key
 			
 			trainSet.stream()
-				.map(e -> create(e))
+				.map(e -> trainSet.get(e.getKey()))
 				.map(trainG -> bpMatcher.execute(validG, trainG))
 				.forEach(result -> {  
 					//System.out.println(fileId + " <-> " + result.g2().getFileid() + " => " + result.distance());
@@ -56,7 +62,7 @@ public class ApproximateGEDExecutor {
 		double predictionAccuracy = ((double) predictedCorrectly / validSet.size()) * 100;
 		
 		try {	
-			Path file = Paths.get("predictions-" + LocalTime.now().toString().replaceAll(":", "") + "-k" + k + "-.csv");
+			Path file = Paths.get("predictions-k" + k + "-c_n" + c_n + "-c_e" + c_e + ".csv");
 			Files.write(file, predictions, Charset.forName("UTF-8"));
 //			file = Paths.get("predictions.csv");
 //			Files.write(file, predictions, Charset.forName("UTF-8"));
@@ -67,18 +73,4 @@ public class ApproximateGEDExecutor {
 		return predictionAccuracy;
 	}
 	
-	private static Molecule create(Entry<String, String> entry) {
-		return create(entry.getKey(), entry.getValue());
-	}
-	
-	private static Molecule create(String fileId, String classId) {
-		try {
-			GXLDocument gxl = new GXLDocument(Paths.get("data/gxl/" + fileId + ".gxl").toFile());
-			return new Molecule(gxl, fileId, classId);
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.exit(-1);
-		}
-		return null;
-	}
 }
