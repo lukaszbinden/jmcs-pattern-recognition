@@ -1,0 +1,6 @@
+/home/lunkford/Downloads/PatRec3-master/PatRec3/bin/Debug/PatRec3.exe
+/home/lunkford/Downloads/PatRec3-master/PatRec3/bin/Debug/PatRec3.pdb
+/home/lunkford/Downloads/PatRec3-master/PatRec3/obj/Debug/PatRec3.csprojResolveAssemblyReference.cache
+/home/lunkford/Downloads/PatRec3-master/PatRec3/obj/Debug/PatRec3.csproj.CoreCompileInputs.cache
+/home/lunkford/Downloads/PatRec3-master/PatRec3/obj/Debug/PatRec3.exe
+/home/lunkford/Downloads/PatRec3-master/PatRec3/obj/Debug/PatRec3.pdb
