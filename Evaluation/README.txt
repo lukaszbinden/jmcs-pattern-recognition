@@ -17,3 +17,4 @@ mninst_predictions.txt
 
 KWS_Validation.txt
 -> contains evaluations for KWS validation dataset
+-> cf. PatRec3.exe
