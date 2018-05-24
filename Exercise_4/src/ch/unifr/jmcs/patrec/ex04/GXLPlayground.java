@@ -21,7 +21,7 @@ public class GXLPlayground {
 
 	public static void main(String[] args) throws Exception {
 		
-		MoleculeDataSet playSet = Main.load("data/play.txt");
+		MoleculeDataSet playSet = TrainingMain.load("data/play.txt");
 		
 		for (Entry<String, String> entry : playSet) {
 			String fileId = entry.getKey();

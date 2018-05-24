@@ -11,5 +11,5 @@ confM = confusionMatrix(t, dnn=c("Prediction", "Ground truth"))
 confM
 
 # plot(confM)
-# fourfoldplot(confM$table)
+fourfoldplot(confM$table)
 

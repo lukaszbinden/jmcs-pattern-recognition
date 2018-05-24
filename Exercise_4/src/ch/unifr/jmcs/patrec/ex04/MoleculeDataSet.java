@@ -13,6 +13,8 @@ import net.sourceforge.gxl.GXLDocument;
 
 public class MoleculeDataSet implements Iterable<Entry<String, String>> {
 
+	public static final String DUMMY_CLASS_ID = "dummyId";
+	
 	private Map<String, String> entries = new HashMap<>();
 	private Map<String, Molecule> molecules = new HashMap<>();
 
@@ -22,7 +24,7 @@ public class MoleculeDataSet implements Iterable<Entry<String, String>> {
 	}
 	
 	public void add(String fileId, String classId) {
-		entries.put(requireNonNull(fileId), requireNonNull(classId));
+		entries.put(requireNonNull(fileId), classId);
 	}
 	
 	public String classId(String fileId) {
@@ -53,7 +55,13 @@ public class MoleculeDataSet implements Iterable<Entry<String, String>> {
 	
 	private static Molecule create(String fileId, String classId) {
 		try {
-			GXLDocument gxl = new GXLDocument(Paths.get("data/gxl/" + fileId + ".gxl").toFile());
+			String basePath = "data/gxl/";
+			if (!fileId.endsWith(".gxl")) {
+				fileId += ".gxl";
+			} else {
+				basePath = "data/validation/gxl/";
+			}
+			GXLDocument gxl = new GXLDocument(Paths.get(basePath + fileId).toFile());
 			return new Molecule(gxl, fileId, classId);
 		} catch (Exception e) {
 			e.printStackTrace();
