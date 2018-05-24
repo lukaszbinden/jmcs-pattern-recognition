@@ -53,7 +53,7 @@ public class TrainingMain {
 		Path file = Paths.get("stats-" + LocalTime.now().toString().replaceAll(":", "") + ".csv");
 		Files.write(file, stats, Charset.forName("UTF-8"));
 		
-		System.out.println("main <-- [" + ((double) (System.currentTimeMillis() - start) / 1000) + "ms]");
+		System.out.println("main <-- [" + ((double) (System.currentTimeMillis() - start) / 1000) + "s]");
 	}
 
 	public static MoleculeDataSet load(String fileName) throws IOException {
