@@ -7,5 +7,6 @@ Pattern Recognition Course, JMCS, University of Fribourg, 24.05.2018
 
 Folder contents:
 ---------------
-- molecules_predictions.txt
+molecules_predictions.txt
 -> contains evaluations for molecules validation dataset
+-> cf. ValidationMain.java
