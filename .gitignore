@@ -33,3 +33,7 @@ data/raw/t10k-labels-idx1-ubyte
 data/raw/train-images-idx3-ubyte
 data/raw/train-labels-idx1-ubyte
 Exercise_2b/~$presentation.pptx
+Exercise_4/tmp/
+Exercise_4/.Rhistory
+Exercise_4/.RData
+Exercise_4/stats-214950.290.csv
